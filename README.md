@@ -1,4 +1,4 @@
-# Querying-COI Experiments
+# Querying Misaligned Data Sources
 
 Experiments used in the paper's main text and appendix.
 
@@ -45,4 +45,6 @@ python -m pytest
 ```
 
 Results and generated figures are in `results/`.
-The Amazon experiments require a local `data/real/amazon_products.csv` file.
+The Amazon dataset is too large to include in this repository. Download it from
+the [Amazon Products Dataset on Kaggle](https://www.kaggle.com/datasets/aaronfriasr/amazon-products-dataset/data)
+and place `amazon_products.csv` in `data/real/`.
