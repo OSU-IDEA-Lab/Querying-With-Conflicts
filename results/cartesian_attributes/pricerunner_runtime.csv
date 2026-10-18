@@ -1,0 +1,301 @@
+dataset,dataset_label,run,lambda,num_attributes,attributes,attribute_labels,cardinalities,observed_groups,possible_groups,observed_density,bias_aggregate,strategy,seconds,pairs,query_utility
+pricerunner,PriceRunner,0,0.1,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Alg. 1,0.0001998340012505,5,27.5
+pricerunner,PriceRunner,0,0.1,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Fast Alg. 1,2.608299837447703e-05,5,27.5
+pricerunner,PriceRunner,0,0.1,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Random credible pairs,2.5083980290219188e-05,5,27.5
+pricerunner,PriceRunner,0,0.1,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Alg. 1,0.001752749987645,29,5418.166666666666
+pricerunner,PriceRunner,0,0.1,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Fast Alg. 1,3.3042015274986625e-05,29,5418.166666666666
+pricerunner,PriceRunner,0,0.1,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Random credible pairs,3.05419962387532e-05,29,5390.529089145187
+pricerunner,PriceRunner,0,0.1,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Alg. 1,0.2376852079760283,225,2542500.0
+pricerunner,PriceRunner,0,0.1,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Fast Alg. 1,0.0001090410223696,225,2542500.0
+pricerunner,PriceRunner,0,0.1,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Random credible pairs,9.104100172407924e-05,225,2528525.33972247
+pricerunner,PriceRunner,0,0.25,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Alg. 1,0.0001833749993238,5,27.5
+pricerunner,PriceRunner,0,0.25,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Fast Alg. 1,2.7833011699840423e-05,5,27.5
+pricerunner,PriceRunner,0,0.25,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Random credible pairs,2.491698251105845e-05,5,27.5
+pricerunner,PriceRunner,0,0.25,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Alg. 1,0.0019094579911325,29,5418.166666666666
+pricerunner,PriceRunner,0,0.25,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Fast Alg. 1,3.220798680558801e-05,29,5418.166666666666
+pricerunner,PriceRunner,0,0.25,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Random credible pairs,2.9874994652345777e-05,29,5211.677577710814
+pricerunner,PriceRunner,0,0.25,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Alg. 1,1.0641738749982323,225,2542498.888899742
+pricerunner,PriceRunner,0,0.25,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Fast Alg. 1,0.0001086670090444,225,2542498.888899742
+pricerunner,PriceRunner,0,0.25,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Random credible pairs,0.0001012500142678,225,2473367.9755835547
+pricerunner,PriceRunner,0,0.5,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Alg. 1,0.0002064580039586,5,27.5
+pricerunner,PriceRunner,0,0.5,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Fast Alg. 1,2.7875008527189493e-05,5,27.5
+pricerunner,PriceRunner,0,0.5,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Random credible pairs,2.912498894147575e-05,5,26.049182489451475
+pricerunner,PriceRunner,0,0.5,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Alg. 1,0.0044744579936377,29,5417.056903429387
+pricerunner,PriceRunner,0,0.5,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Fast Alg. 1,3.920900053344667e-05,29,5417.056903429387
+pricerunner,PriceRunner,0,0.5,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Random credible pairs,3.404100425541401e-05,29,4841.645699607442
+pricerunner,PriceRunner,0,0.5,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Alg. 1,2.404031959013082,225,2542483.5563722285
+pricerunner,PriceRunner,0,0.5,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Fast Alg. 1,0.0001093329919967,225,2542483.556372227
+pricerunner,PriceRunner,0,0.5,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Random credible pairs,0.0001090830191969,225,2284283.961125971
+pricerunner,PriceRunner,0,1.0,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Alg. 1,0.0002669590176083,5,27.28125
+pricerunner,PriceRunner,0,1.0,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Fast Alg. 1,2.804200630635023e-05,5,27.28125
+pricerunner,PriceRunner,0,1.0,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Random credible pairs,2.400000812485814e-05,5,20.89434884778654
+pricerunner,PriceRunner,0,1.0,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Alg. 1,0.0093047080154065,29,5407.324567360263
+pricerunner,PriceRunner,0,1.0,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Fast Alg. 1,3.329198807477951e-05,29,5407.324567360265
+pricerunner,PriceRunner,0,1.0,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Random credible pairs,3.22920095641166e-05,29,3041.285811540699
+pricerunner,PriceRunner,0,1.0,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Alg. 1,4.325753833021736,225,2542384.4684803155
+pricerunner,PriceRunner,0,1.0,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Fast Alg. 1,0.0001135419879574,225,2542384.4684803137
+pricerunner,PriceRunner,0,1.0,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Random credible pairs,9.958300506696104e-05,223,1833470.4601624764
+pricerunner,PriceRunner,1,0.1,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Alg. 1,0.0002213330008089,5,27.5
+pricerunner,PriceRunner,1,0.1,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Fast Alg. 1,3.041699528694153e-05,5,27.5
+pricerunner,PriceRunner,1,0.1,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Random credible pairs,2.9291026294231415e-05,5,27.0625
+pricerunner,PriceRunner,1,0.1,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Alg. 1,0.0015822079731151,29,5418.166666666666
+pricerunner,PriceRunner,1,0.1,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Fast Alg. 1,3.070800448767841e-05,29,5418.166666666666
+pricerunner,PriceRunner,1,0.1,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Random credible pairs,3.250001464039087e-05,29,5365.764921333795
+pricerunner,PriceRunner,1,0.1,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Alg. 1,0.6270184589957353,225,2542498.666692629
+pricerunner,PriceRunner,1,0.1,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Fast Alg. 1,0.0001104160037357,225,2542490.89164259
+pricerunner,PriceRunner,1,0.1,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Random credible pairs,9.129199315793812e-05,225,2525479.331553017
+pricerunner,PriceRunner,1,0.25,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Alg. 1,0.0003462079912424,5,27.28125
+pricerunner,PriceRunner,1,0.25,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Fast Alg. 1,2.6958005037158728e-05,5,27.28125
+pricerunner,PriceRunner,1,0.25,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Random credible pairs,2.600002335384488e-05,5,25.364583333333332
+pricerunner,PriceRunner,1,0.25,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Alg. 1,0.0038006670074537,29,5417.501096491227
+pricerunner,PriceRunner,1,0.25,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Fast Alg. 1,3.500000457279384e-05,29,5417.501096491228
+pricerunner,PriceRunner,1,0.25,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Random credible pairs,3.270799061283469e-05,29,5100.28898212991
+pricerunner,PriceRunner,1,0.25,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Alg. 1,1.57898433401715,225,2542484.668617576
+pricerunner,PriceRunner,1,0.25,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Fast Alg. 1,0.0001210000191349,225,2542431.01846561
+pricerunner,PriceRunner,1,0.25,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Random credible pairs,0.0001031249994412,225,2459618.26885058
+pricerunner,PriceRunner,1,0.5,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Alg. 1,0.0003360839909873,5,26.42361111111111
+pricerunner,PriceRunner,1,0.5,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Fast Alg. 1,3.15000070258975e-05,5,26.42361111111111
+pricerunner,PriceRunner,1,0.5,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Random credible pairs,2.854099147953093e-05,5,24.771404711673696
+pricerunner,PriceRunner,1,0.5,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Alg. 1,0.0108710000058636,29,5413.082456736928
+pricerunner,PriceRunner,1,0.5,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Fast Alg. 1,4.320801235735416e-05,29,5413.082456736931
+pricerunner,PriceRunner,1,0.5,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Random credible pairs,3.8124999264255166e-05,29,4538.642013687095
+pricerunner,PriceRunner,1,0.5,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Alg. 1,3.1672643329948187,225,2542415.8247147785
+pricerunner,PriceRunner,1,0.5,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Fast Alg. 1,0.0001095420157071,225,2542221.9170439676
+pricerunner,PriceRunner,1,0.5,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Random credible pairs,9.64170030783862e-05,225,2245811.421727004
+pricerunner,PriceRunner,1,1.0,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Alg. 1,0.0003885829937644,5,22.85126582278481
+pricerunner,PriceRunner,1,1.0,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Fast Alg. 1,3.1957984901964664e-05,5,22.851265822784807
+pricerunner,PriceRunner,1,1.0,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Random credible pairs,2.983398735523224e-05,5,19.44976968633472
+pricerunner,PriceRunner,1,1.0,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Alg. 1,0.0156899169960524,29,5391.545432591779
+pricerunner,PriceRunner,1,1.0,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Fast Alg. 1,3.7290999898687005e-05,29,5391.54543259178
+pricerunner,PriceRunner,1,1.0,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Random credible pairs,3.3499993151053786e-05,27,3233.823113395105
+pricerunner,PriceRunner,1,1.0,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Alg. 1,4.957668499991996,225,2542106.548207005
+pricerunner,PriceRunner,1,1.0,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Fast Alg. 1,0.0001217499957419,225,2541391.737261198
+pricerunner,PriceRunner,1,1.0,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Random credible pairs,0.0001021249918267,222,1730898.3593910623
+pricerunner,PriceRunner,2,0.1,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Alg. 1,0.0001984580012504,5,27.5
+pricerunner,PriceRunner,2,0.1,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Fast Alg. 1,2.658300218172371e-05,5,27.5
+pricerunner,PriceRunner,2,0.1,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Random credible pairs,2.6875000912696123e-05,5,27.0625
+pricerunner,PriceRunner,2,0.1,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Alg. 1,0.00257858299301,29,5418.166666666666
+pricerunner,PriceRunner,2,0.1,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Fast Alg. 1,3.3541000448167324e-05,29,5418.166666666666
+pricerunner,PriceRunner,2,0.1,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Random credible pairs,3.1625007977709174e-05,29,5367.04140317188
+pricerunner,PriceRunner,2,0.1,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Alg. 1,0.4375486249919049,225,2542499.555559897
+pricerunner,PriceRunner,2,0.1,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Fast Alg. 1,0.0001091249869205,225,2542499.555559897
+pricerunner,PriceRunner,2,0.1,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Random credible pairs,9.716700878925622e-05,225,2522086.11864293
+pricerunner,PriceRunner,2,0.25,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Alg. 1,0.000250415992923,5,27.5
+pricerunner,PriceRunner,2,0.25,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Fast Alg. 1,2.8708018362522125e-05,5,27.5
+pricerunner,PriceRunner,2,0.25,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Random credible pairs,3.1790987122803926e-05,5,23.02937039794821
+pricerunner,PriceRunner,2,0.25,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Alg. 1,0.006356624973705,29,5417.944570135746
+pricerunner,PriceRunner,2,0.25,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Fast Alg. 1,4.512499435804784e-05,29,5417.944570135746
+pricerunner,PriceRunner,2,0.25,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Random credible pairs,3.9000005926936865e-05,29,5026.737864637073
+pricerunner,PriceRunner,2,0.25,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Alg. 1,1.4816016660188325,225,2542486.668099871
+pricerunner,PriceRunner,2,0.25,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Fast Alg. 1,0.000110000022687,225,2542486.6680998704
+pricerunner,PriceRunner,2,0.25,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Random credible pairs,9.870799840427936e-05,225,2426800.707457941
+pricerunner,PriceRunner,2,0.5,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Alg. 1,0.0002090409980155,5,27.5
+pricerunner,PriceRunner,2,0.5,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Fast Alg. 1,2.9457994969561696e-05,5,27.5
+pricerunner,PriceRunner,2,0.5,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Random credible pairs,3.433300298638642e-05,5,19.61657107000876
+pricerunner,PriceRunner,2,0.5,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Alg. 1,0.0086753339855931,29,5416.168517305707
+pricerunner,PriceRunner,2,0.5,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Fast Alg. 1,3.629201091825962e-05,29,5416.168517305708
+pricerunner,PriceRunner,2,0.5,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Random credible pairs,3.358299727551639e-05,29,4360.946204253106
+pricerunner,PriceRunner,2,0.5,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Alg. 1,3.1361925409873948,225,2542424.6962965084
+pricerunner,PriceRunner,2,0.5,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Fast Alg. 1,0.0001078750065062,225,2542424.696296507
+pricerunner,PriceRunner,2,0.5,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Random credible pairs,9.779102401807904e-05,225,2194298.6712039225
+pricerunner,PriceRunner,2,1.0,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Alg. 1,0.0002627090143505,5,26.64236111111111
+pricerunner,PriceRunner,2,1.0,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Fast Alg. 1,3.4083990612998605e-05,5,26.64236111111111
+pricerunner,PriceRunner,2,1.0,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Random credible pairs,3.3249991247430444e-05,4,14.740469858156027
+pricerunner,PriceRunner,2,1.0,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Alg. 1,0.0150998329918365,29,5397.609416796723
+pricerunner,PriceRunner,2,1.0,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Fast Alg. 1,4.079201607964933e-05,29,5397.609416796723
+pricerunner,PriceRunner,2,1.0,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Random credible pairs,3.524997737258673e-05,27,3096.395408796931
+pricerunner,PriceRunner,2,1.0,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Alg. 1,5.058904583973344,225,2542128.506128369
+pricerunner,PriceRunner,2,1.0,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Fast Alg. 1,0.0001133340119849,225,2542128.506128369
+pricerunner,PriceRunner,2,1.0,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Random credible pairs,9.566600783728064e-05,219,1599934.4891098791
+pricerunner,PriceRunner,3,0.1,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Alg. 1,0.0002827919961418,5,27.5
+pricerunner,PriceRunner,3,0.1,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Fast Alg. 1,3.0499999411404133e-05,5,27.5
+pricerunner,PriceRunner,3,0.1,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Random credible pairs,2.8874987037852407e-05,5,27.28125
+pricerunner,PriceRunner,3,0.1,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Alg. 1,0.0027871250058524,29,5418.166666666666
+pricerunner,PriceRunner,3,0.1,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Fast Alg. 1,3.562498022802174e-05,29,5418.166666666666
+pricerunner,PriceRunner,3,0.1,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Random credible pairs,3.3374992199242115e-05,29,5359.924163285446
+pricerunner,PriceRunner,3,0.1,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Alg. 1,0.348365375015419,225,2542500.0
+pricerunner,PriceRunner,3,0.1,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Fast Alg. 1,0.0001118750078603,225,2542499.111132732
+pricerunner,PriceRunner,3,0.1,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Random credible pairs,0.0001010829873848,225,2524185.251227622
+pricerunner,PriceRunner,3,0.25,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Alg. 1,0.0003052079991903,5,27.5
+pricerunner,PriceRunner,3,0.25,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Fast Alg. 1,2.8250011382624507e-05,5,27.5
+pricerunner,PriceRunner,3,0.25,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Random credible pairs,2.833301550708711e-05,5,23.82393790849673
+pricerunner,PriceRunner,3,0.25,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Alg. 1,0.0043447499920148,29,5417.500377073905
+pricerunner,PriceRunner,3,0.25,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Fast Alg. 1,3.529101377353072e-05,29,5417.500377073906
+pricerunner,PriceRunner,3,0.25,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Random credible pairs,3.441702574491501e-05,29,5144.192202104828
+pricerunner,PriceRunner,3,0.25,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Alg. 1,0.7062078749877401,225,2542493.7779674376
+pricerunner,PriceRunner,3,0.25,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Fast Alg. 1,0.0001051250146701,225,2542483.558019002
+pricerunner,PriceRunner,3,0.25,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Random credible pairs,9.700001101009548e-05,225,2412473.5302489246
+pricerunner,PriceRunner,3,0.5,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Alg. 1,0.000224999996135,5,27.5
+pricerunner,PriceRunner,3,0.5,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Fast Alg. 1,2.4457986000925303e-05,5,27.5
+pricerunner,PriceRunner,3,0.5,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Random credible pairs,2.912498894147575e-05,5,21.696352211097206
+pricerunner,PriceRunner,3,0.5,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Alg. 1,0.009105625009397,29,5411.737816412653
+pricerunner,PriceRunner,3,0.5,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Fast Alg. 1,4.058299236930907e-05,29,5411.737816412654
+pricerunner,PriceRunner,3,0.5,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Random credible pairs,3.6999990697950125e-05,29,4080.228776485212
+pricerunner,PriceRunner,3,0.5,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Alg. 1,2.1679752909985837,225,2542452.4504339453
+pricerunner,PriceRunner,3,0.5,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Fast Alg. 1,0.0001103329996112,225,2542406.500984711
+pricerunner,PriceRunner,3,0.5,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Random credible pairs,9.708298603072762e-05,225,2185063.7377650137
+pricerunner,PriceRunner,3,1.0,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Alg. 1,0.0002878749801311,5,26.00347222222222
+pricerunner,PriceRunner,3,1.0,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Fast Alg. 1,2.9291986720636487e-05,5,26.00347222222222
+pricerunner,PriceRunner,3,1.0,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Random credible pairs,2.8582988306879997e-05,3,9.25177304964539
+pricerunner,PriceRunner,3,1.0,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Alg. 1,0.02041383300093,29,5386.0029928865815
+pricerunner,PriceRunner,3,1.0,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Fast Alg. 1,4.558399086818099e-05,29,5386.0029928865815
+pricerunner,PriceRunner,3,1.0,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Random credible pairs,3.795800148509443e-05,28,3053.954410117204
+pricerunner,PriceRunner,3,1.0,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Alg. 1,4.358051874994999,225,2542233.9020483145
+pricerunner,PriceRunner,3,1.0,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Fast Alg. 1,0.0001215829979628,225,2542061.7649953235
+pricerunner,PriceRunner,3,1.0,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Random credible pairs,0.0001172079937532,214,1562395.9654940453
+pricerunner,PriceRunner,4,0.1,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Alg. 1,0.0002032089978456,5,27.5
+pricerunner,PriceRunner,4,0.1,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Fast Alg. 1,3.47500026691705e-05,5,27.5
+pricerunner,PriceRunner,4,0.1,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Random credible pairs,3.141601337119937e-05,5,27.28125
+pricerunner,PriceRunner,4,0.1,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Alg. 1,0.0036299579951446,29,5417.501096491228
+pricerunner,PriceRunner,4,0.1,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Fast Alg. 1,4.187499871477485e-05,29,5417.501096491227
+pricerunner,PriceRunner,4,0.1,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Random credible pairs,3.5208999179303646e-05,29,5385.162673295608
+pricerunner,PriceRunner,4,0.1,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Alg. 1,0.6048207920102868,225,2542496.444926618
+pricerunner,PriceRunner,4,0.1,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Fast Alg. 1,0.0001094159961212,225,2542496.444926618
+pricerunner,PriceRunner,4,0.1,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Random credible pairs,0.0001048339763656,225,2525599.9419256775
+pricerunner,PriceRunner,4,0.25,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Alg. 1,0.0002729590050876,5,27.5
+pricerunner,PriceRunner,4,0.25,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Fast Alg. 1,2.812498132698238e-05,5,27.5
+pricerunner,PriceRunner,4,0.25,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Random credible pairs,2.574999234639108e-05,5,23.449509286837095
+pricerunner,PriceRunner,4,0.25,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Alg. 1,0.0037932920095045,29,5413.548086359175
+pricerunner,PriceRunner,4,0.25,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Fast Alg. 1,3.2334006391465664e-05,29,5413.548086359175
+pricerunner,PriceRunner,4,0.25,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Random credible pairs,3.2791984267532825e-05,29,5100.776145069621
+pricerunner,PriceRunner,4,0.25,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Alg. 1,0.5469475829740986,225,2542468.252219268
+pricerunner,PriceRunner,4,0.25,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Fast Alg. 1,0.0001136249920818,225,2542463.5858044457
+pricerunner,PriceRunner,4,0.25,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Random credible pairs,9.812499047257006e-05,225,2455611.369963386
+pricerunner,PriceRunner,4,0.5,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Alg. 1,0.0002762920048553,5,27.28125
+pricerunner,PriceRunner,4,0.5,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Fast Alg. 1,2.783298259600997e-05,5,27.28125
+pricerunner,PriceRunner,4,0.5,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Random credible pairs,2.662499900907278e-05,4,14.959219858156027
+pricerunner,PriceRunner,4,0.5,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Alg. 1,0.0096556249773129,29,5397.609118581008
+pricerunner,PriceRunner,4,0.5,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Fast Alg. 1,3.616698086261749e-05,29,5397.609118581008
+pricerunner,PriceRunner,4,0.5,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Random credible pairs,3.341701813042164e-05,29,4502.202265491464
+pricerunner,PriceRunner,4,0.5,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Alg. 1,2.003605207981309,225,2542361.320660004
+pricerunner,PriceRunner,4,0.5,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Fast Alg. 1,0.000117332994705,225,2542335.550913448
+pricerunner,PriceRunner,4,0.5,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Random credible pairs,9.849999332800508e-05,225,2266689.8169131954
+pricerunner,PriceRunner,4,1.0,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Alg. 1,0.0002930409973487,5,25.10171568627451
+pricerunner,PriceRunner,4,1.0,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Fast Alg. 1,3.416699473746121e-05,5,25.10171568627451
+pricerunner,PriceRunner,4,1.0,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Random credible pairs,3.1333998776972294e-05,3,11.122549019607842
+pricerunner,PriceRunner,4,1.0,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Alg. 1,0.0160950830031652,29,5344.907741013547
+pricerunner,PriceRunner,4,1.0,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Fast Alg. 1,3.658299101516605e-05,29,5344.907741013547
+pricerunner,PriceRunner,4,1.0,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Random credible pairs,3.241698141209781e-05,26,2790.185273770315
+pricerunner,PriceRunner,4,1.0,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Alg. 1,5.123676791001344,225,2541917.066434216
+pricerunner,PriceRunner,4,1.0,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Fast Alg. 1,0.0001120000088121,225,2541826.500425358
+pricerunner,PriceRunner,4,1.0,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Random credible pairs,0.0001032910076901,217,1778923.188527553
+pricerunner,PriceRunner,0,0.1,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Single best pair,8.62079905346036e-05,1,5.5
+pricerunner,PriceRunner,0,0.1,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Single best pair,0.0001885000092443,1,186.83333333333337
+pricerunner,PriceRunner,0,0.1,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Single best pair,0.009980666975025,1,11300.0
+pricerunner,PriceRunner,0,0.25,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Single best pair,8.24590097181499e-05,1,5.5
+pricerunner,PriceRunner,0,0.25,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Single best pair,0.0001637919922359,1,186.83333333333337
+pricerunner,PriceRunner,0,0.25,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Single best pair,0.0098944579949602,1,11300.0
+pricerunner,PriceRunner,0,0.5,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Single best pair,7.179100066423416e-05,1,5.5
+pricerunner,PriceRunner,0,0.5,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Single best pair,0.0001855829905252,1,186.83333333333337
+pricerunner,PriceRunner,0,0.5,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Single best pair,0.0102102080127224,1,11300.0
+pricerunner,PriceRunner,0,1.0,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Single best pair,7.162499241530895e-05,1,5.5
+pricerunner,PriceRunner,0,1.0,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Single best pair,0.0001905410026665,1,186.83333333333337
+pricerunner,PriceRunner,0,1.0,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Single best pair,0.0101957920123822,1,11300.0
+pricerunner,PriceRunner,1,0.1,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Single best pair,6.387499161064625e-05,1,5.5
+pricerunner,PriceRunner,1,0.1,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Single best pair,0.0001627920137252,1,186.83333333333337
+pricerunner,PriceRunner,1,0.1,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Single best pair,0.0095148329855874,1,11300.0
+pricerunner,PriceRunner,1,0.25,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Single best pair,6.033299723640084e-05,1,5.5
+pricerunner,PriceRunner,1,0.25,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Single best pair,0.0001714589889161,1,186.83333333333337
+pricerunner,PriceRunner,1,0.25,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Single best pair,0.0099439999903552,1,11300.0
+pricerunner,PriceRunner,1,0.5,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Single best pair,8.195798727683723e-05,1,5.5
+pricerunner,PriceRunner,1,0.5,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Single best pair,0.000154040986672,1,186.83333333333337
+pricerunner,PriceRunner,1,0.5,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Single best pair,0.0102479159832,1,11300.0
+pricerunner,PriceRunner,1,1.0,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Single best pair,8.07089963927865e-05,1,5.5
+pricerunner,PriceRunner,1,1.0,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Single best pair,0.0001750829978846,1,186.83333333333337
+pricerunner,PriceRunner,1,1.0,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Single best pair,0.0100484169961418,1,11300.0
+pricerunner,PriceRunner,2,0.1,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Single best pair,7.004200597293675e-05,1,5.5
+pricerunner,PriceRunner,2,0.1,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Single best pair,0.0001799159799702,1,186.83333333333337
+pricerunner,PriceRunner,2,0.1,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Single best pair,0.0106877910147886,1,11300.0
+pricerunner,PriceRunner,2,0.25,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Single best pair,7.79160181991756e-05,1,5.5
+pricerunner,PriceRunner,2,0.25,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Single best pair,0.0001769170048646,1,186.83333333333337
+pricerunner,PriceRunner,2,0.25,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Single best pair,0.010068792005768,1,11300.0
+pricerunner,PriceRunner,2,0.5,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Single best pair,7.47090089134872e-05,1,5.5
+pricerunner,PriceRunner,2,0.5,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Single best pair,0.0001687500043772,1,186.83333333333337
+pricerunner,PriceRunner,2,0.5,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Single best pair,0.0116368329909164,1,11300.0
+pricerunner,PriceRunner,2,1.0,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Single best pair,8.745898958295584e-05,1,5.5
+pricerunner,PriceRunner,2,1.0,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Single best pair,0.0001789579982869,1,186.83333333333337
+pricerunner,PriceRunner,2,1.0,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Single best pair,0.0104510830133222,1,11300.0
+pricerunner,PriceRunner,3,0.1,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Single best pair,7.775000995025039e-05,1,5.5
+pricerunner,PriceRunner,3,0.1,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Single best pair,0.000188000005437,1,186.83333333333337
+pricerunner,PriceRunner,3,0.1,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Single best pair,0.0094671669939998,1,11300.0
+pricerunner,PriceRunner,3,0.25,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Single best pair,6.929200026206672e-05,1,5.5
+pricerunner,PriceRunner,3,0.25,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Single best pair,0.0001588329905644,1,186.83333333333337
+pricerunner,PriceRunner,3,0.25,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Single best pair,0.0093307500064838,1,11300.0
+pricerunner,PriceRunner,3,0.5,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Single best pair,5.549998604692519e-05,1,5.5
+pricerunner,PriceRunner,3,0.5,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Single best pair,0.0002220409805886,1,186.83333333333337
+pricerunner,PriceRunner,3,0.5,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Single best pair,0.0096057500049937,1,11300.0
+pricerunner,PriceRunner,3,1.0,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Single best pair,7.220797124318779e-05,1,5.5
+pricerunner,PriceRunner,3,1.0,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Single best pair,0.0001670839847065,1,186.83333333333337
+pricerunner,PriceRunner,3,1.0,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Single best pair,0.010356207989389,1,11300.0
+pricerunner,PriceRunner,4,0.1,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Single best pair,6.095899152569473e-05,1,5.5
+pricerunner,PriceRunner,4,0.1,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Single best pair,0.0001841249759308,1,186.83333333333337
+pricerunner,PriceRunner,4,0.1,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Single best pair,0.0094640409806743,1,11300.0
+pricerunner,PriceRunner,4,0.25,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Single best pair,7.258300320245326e-05,1,5.5
+pricerunner,PriceRunner,4,0.25,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Single best pair,0.0001519999932497,1,186.83333333333337
+pricerunner,PriceRunner,4,0.25,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Single best pair,0.0091990840155631,1,11300.0
+pricerunner,PriceRunner,4,0.5,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Single best pair,6.216601468622684e-05,1,5.5
+pricerunner,PriceRunner,4,0.5,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Single best pair,0.0001583750126883,1,186.83333333333337
+pricerunner,PriceRunner,4,0.5,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Single best pair,0.0097405000124126,1,11300.0
+pricerunner,PriceRunner,4,1.0,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Single best pair,6.049999501556158e-05,1,5.5
+pricerunner,PriceRunner,4,1.0,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Single best pair,0.0001701249857433,1,186.83333333333337
+pricerunner,PriceRunner,4,1.0,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Single best pair,0.0101492080138996,1,11300.0
+pricerunner,PriceRunner,0,0.1,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Single random pair,4.462499055080116e-05,1,5.5
+pricerunner,PriceRunner,0,0.1,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Single random pair,3.05419962387532e-05,1,186.16776315789474
+pricerunner,PriceRunner,0,0.1,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Single random pair,3.879200085066259e-05,1,11238.817778491917
+pricerunner,PriceRunner,0,0.25,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Single random pair,3.662501694634557e-05,1,5.5
+pricerunner,PriceRunner,0,0.25,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Single random pair,3.2042007660493255e-05,1,186.83333333333334
+pricerunner,PriceRunner,0,0.25,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Single random pair,4.049998824484646e-05,1,11175.934960888217
+pricerunner,PriceRunner,0,0.5,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Single random pair,2.8874987037852407e-05,1,4.861111111111111
+pricerunner,PriceRunner,0,0.5,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Single random pair,3.129200194962323e-05,1,131.61339833875044
+pricerunner,PriceRunner,0,0.5,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Single random pair,2.9584014555439353e-05,1,10509.509416375075
+pricerunner,PriceRunner,0,1.0,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Single random pair,2.7457979740574956e-05,1,4.267932489451477
+pricerunner,PriceRunner,0,1.0,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Single random pair,2.7250003768131137e-05,1,29.277033881111787
+pricerunner,PriceRunner,0,1.0,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Single random pair,3.079199814237654e-05,1,7699.501625646866
+pricerunner,PriceRunner,1,0.1,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Single random pair,3.783300053328276e-05,1,5.5
+pricerunner,PriceRunner,1,0.1,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Single random pair,2.6708992663770914e-05,1,185.5042575838212
+pricerunner,PriceRunner,1,0.1,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Single random pair,3.9709004340693355e-05,1,11222.24163952657
+pricerunner,PriceRunner,1,0.25,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Single random pair,3.7874997360631824e-05,1,5.28125
+pricerunner,PriceRunner,1,0.25,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Single random pair,2.4500011932104826e-05,1,185.5042575838212
+pricerunner,PriceRunner,1,0.25,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Single random pair,3.066699719056487e-05,1,11297.777992029824
+pricerunner,PriceRunner,1,0.5,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Single random pair,3.358299727551639e-05,1,4.267932489451477
+pricerunner,PriceRunner,1,0.5,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Single random pair,3.2041018130257726e-05,1,182.21475302584233
+pricerunner,PriceRunner,1,0.5,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Single random pair,4.212500061839819e-05,1,10859.038239442656
+pricerunner,PriceRunner,1,1.0,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Single random pair,7.058301707729697e-05,1,1.0738831615120275
+pricerunner,PriceRunner,1,1.0,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Single random pair,3.412499791011214e-05,1,174.91174716756112
+pricerunner,PriceRunner,1,1.0,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Single random pair,3.004202153533697e-05,1,10527.454981405363
+pricerunner,PriceRunner,2,0.1,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Single random pair,4.57499991171062e-05,1,5.5
+pricerunner,PriceRunner,2,0.1,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Single random pair,2.8457987355068326e-05,1,186.83333333333334
+pricerunner,PriceRunner,2,0.1,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Single random pair,3.308302257210016e-05,1,11030.493349619977
+pricerunner,PriceRunner,2,0.25,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Single random pair,3.0082999728620052e-05,1,3.5392156862745097
+pricerunner,PriceRunner,2,0.25,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Single random pair,3.433300298638642e-05,1,182.21475302584233
+pricerunner,PriceRunner,2,0.25,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Single random pair,3.125000512227416e-05,1,10924.92571461731
+pricerunner,PriceRunner,2,0.5,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Single random pair,2.591699012555182e-05,1,4.861111111111111
+pricerunner,PriceRunner,2,0.5,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Single random pair,2.5832996470853686e-05,1,180.69451093026967
+pricerunner,PriceRunner,2,0.5,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Single random pair,3.6833982449024916e-05,1,11262.059141008254
+pricerunner,PriceRunner,2,1.0,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Single random pair,8.30409990157932e-05,1,5.5
+pricerunner,PriceRunner,2,1.0,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Single random pair,5.2207993576303124e-05,1,55.842624491074226
+pricerunner,PriceRunner,2,1.0,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Single random pair,5.0417002057656646e-05,1,11253.421832105187
+pricerunner,PriceRunner,3,0.1,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Single random pair,4.529199213720858e-05,1,5.5
+pricerunner,PriceRunner,3,0.1,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Single random pair,6.0708000091835856e-05,1,183.52517623363545
+pricerunner,PriceRunner,3,0.1,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Single random pair,3.137500607408583e-05,1,11243.905240676851
+pricerunner,PriceRunner,3,0.25,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Single random pair,3.187500988133252e-05,1,5.5
+pricerunner,PriceRunner,3,0.25,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Single random pair,2.8916983865201473e-05,1,158.25322945798376
+pricerunner,PriceRunner,3,0.25,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Single random pair,2.8665992431342602e-05,1,10937.48649521088
+pricerunner,PriceRunner,3,0.5,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Single random pair,3.1584000680595636e-05,1,4.267932489451477
+pricerunner,PriceRunner,3,0.5,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Single random pair,2.8791982913389802e-05,1,60.609640831758036
+pricerunner,PriceRunner,3,0.5,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Single random pair,3.4666998544707894e-05,1,9381.897273336761
+pricerunner,PriceRunner,3,1.0,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Single random pair,0.00010745797771960497,1,5.5
+pricerunner,PriceRunner,3,1.0,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Single random pair,2.933401265181601e-05,1,11.788369304556355
+pricerunner,PriceRunner,3,1.0,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Single random pair,3.095899592153728e-05,1,2787.8774024058625
+pricerunner,PriceRunner,4,0.1,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Single random pair,2.6541005354374647e-05,1,5.5
+pricerunner,PriceRunner,4,0.1,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Single random pair,3.0041992431506515e-05,1,185.5042575838212
+pricerunner,PriceRunner,4,0.1,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Single random pair,3.0625000363215804e-05,1,11298.666744131251
+pricerunner,PriceRunner,4,0.25,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Single random pair,2.90420139208436e-05,1,5.28125
+pricerunner,PriceRunner,4,0.25,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Single random pair,2.3833999875932932e-05,1,164.5132340777502
+pricerunner,PriceRunner,4,0.25,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Single random pair,2.912498894147575e-05,1,10022.824109173616
+pricerunner,PriceRunner,4,0.5,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Single random pair,3.0291994335129857e-05,1,4.861111111111111
+pricerunner,PriceRunner,4,0.5,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Single random pair,3.3374992199242115e-05,1,161.4669511038873
+pricerunner,PriceRunner,4,0.5,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Single random pair,3.037499845959246e-05,1,10454.526069127123
+pricerunner,PriceRunner,4,1.0,1,"[""brand_top10""]",Brand,[10],10,10,1.0,mean,Single random pair,3.0291994335129857e-05,1,4.861111111111111
+pricerunner,PriceRunner,4,1.0,2,"[""brand_top10"", ""category""]",Brand × Category,"[10, 10]",58,100,0.58,mean,Single random pair,3.241701051592827e-05,1,147.6695259880544
+pricerunner,PriceRunner,4,1.0,3,"[""brand_top10"", ""category"", ""merchant_top10""]",Brand × Category × Merchant,"[10, 10, 11]",451,1100,0.41,mean,Single random pair,2.7667003450915217e-05,1,8963.434880874896

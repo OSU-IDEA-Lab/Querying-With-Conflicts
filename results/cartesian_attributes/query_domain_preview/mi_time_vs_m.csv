@@ -1,0 +1,16 @@
+dataset,dataset_label,observed_groups,time_seconds
+amazon,Amazon,6,0.0001869999978225
+amazon,Amazon,60,0.005143062502611401
+amazon,Amazon,885,14.091567750001559
+pricerunner,PriceRunner,10,0.0002648340159794
+pricerunner,PriceRunner,58,0.005415541483671351
+pricerunner,PriceRunner,451,1.7912947709992295
+compas,COMPAS,2,0.0001420415064785
+compas,COMPAS,6,0.0001670834899414
+compas,COMPAS,57,0.00387014551961325
+flights,Flights,5,0.00019020799663845
+flights,Flights,26,0.00059125000552735
+flights,Flights,327,0.9216842705063755
+census,Census,2,0.0001431249984307
+census,Census,10,0.00021108299551995
+census,Census,154,0.04251293749257455

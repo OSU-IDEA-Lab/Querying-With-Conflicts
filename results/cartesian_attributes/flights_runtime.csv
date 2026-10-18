@@ -1,0 +1,301 @@
+dataset,dataset_label,run,lambda,num_attributes,attributes,attribute_labels,cardinalities,observed_groups,possible_groups,observed_density,bias_aggregate,strategy,seconds,pairs,query_utility
+flights,Flights,0,0.1,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Alg. 1,0.000191541010281,2,2.6666666666666665
+flights,Flights,0,0.1,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Fast Alg. 1,2.5917019229382277e-05,2,2.6666666666666665
+flights,Flights,0,0.1,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Random credible pairs,2.516701351851225e-05,2,2.6666666666666665
+flights,Flights,0,0.1,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Alg. 1,0.0005176249833311,13,487.5
+flights,Flights,0,0.1,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Fast Alg. 1,3.29999893438071e-05,13,487.5
+flights,Flights,0,0.1,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Random credible pairs,3.0291004804894328e-05,13,483.5611196111243
+flights,Flights,0,0.1,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Alg. 1,0.1713929999968968,163,968292.444444448
+flights,Flights,0,0.1,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Fast Alg. 1,9.041701559908688e-05,163,968292.444444448
+flights,Flights,0,0.1,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Random credible pairs,9.137502638623118e-05,163,960349.9645324602
+flights,Flights,0,0.25,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Alg. 1,0.000183709023986,2,2.6666666666666665
+flights,Flights,0,0.25,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Fast Alg. 1,2.7292000595480204e-05,2,2.4561403508771926
+flights,Flights,0,0.25,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Random credible pairs,2.5291985366493464e-05,2,2.245614035087719
+flights,Flights,0,0.25,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Alg. 1,0.0004844169889111,13,487.5
+flights,Flights,0,0.25,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Fast Alg. 1,3.166601527482271e-05,13,487.5
+flights,Flights,0,0.25,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Random credible pairs,2.937499084509909e-05,13,450.4209502885567
+flights,Flights,0,0.25,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Alg. 1,0.7108915420249104,163,968288.0003749584
+flights,Flights,0,0.25,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Fast Alg. 1,9.862499427981676e-05,163,968287.7781568546
+flights,Flights,0,0.25,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Random credible pairs,9.312498150393368e-05,163,914221.1277105762
+flights,Flights,0,0.5,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Alg. 1,0.0001703750167507,2,2.6666666666666665
+flights,Flights,0,0.5,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Fast Alg. 1,3.225001273676753e-05,2,1.6666666666666663
+flights,Flights,0,0.5,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Random credible pairs,2.9666000045835972e-05,2,1.6666666666666663
+flights,Flights,0,0.5,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Alg. 1,0.0005191249947529,13,487.5
+flights,Flights,0,0.5,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Fast Alg. 1,3.254201146773994e-05,13,487.5
+flights,Flights,0,0.5,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Random credible pairs,4.112499300390482e-05,13,391.2283471653947
+flights,Flights,0,0.5,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Alg. 1,0.9568297080113553,163,968262.0094545608
+flights,Flights,0,0.5,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Fast Alg. 1,9.408401092514396e-05,163,968260.6762677394
+flights,Flights,0,0.5,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Random credible pairs,9.787498856894672e-05,163,829782.5637881199
+flights,Flights,0,1.0,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Alg. 1,0.0001712500234134,2,2.6666666666666665
+flights,Flights,0,1.0,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Fast Alg. 1,3.158298204652965e-05,1,1.3333333333333333
+flights,Flights,0,1.0,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Random credible pairs,2.8207985451444983e-05,2,2.6666666666666665
+flights,Flights,0,1.0,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Alg. 1,0.0006010410143062,13,487.27836879432624
+flights,Flights,0,1.0,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Fast Alg. 1,3.041699528694153e-05,13,487.27836879432624
+flights,Flights,0,1.0,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Random credible pairs,2.7708010748028755e-05,11,245.9116136829758
+flights,Flights,0,1.0,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Alg. 1,1.7535771669936366,163,968132.4137417712
+flights,Flights,0,1.0,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Fast Alg. 1,9.41669859457761e-05,163,968127.748838678
+flights,Flights,0,1.0,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Random credible pairs,9.162499918602408e-05,153,530494.7659546072
+flights,Flights,1,0.1,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Alg. 1,0.0002001249813474,2,2.6666666666666665
+flights,Flights,1,0.1,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Fast Alg. 1,2.6250025257468224e-05,2,2.6666666666666665
+flights,Flights,1,0.1,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Random credible pairs,2.4625012883916497e-05,2,2.6666666666666665
+flights,Flights,1,0.1,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Alg. 1,0.0004378329904284,13,487.5
+flights,Flights,1,0.1,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Fast Alg. 1,3.683299291878939e-05,13,487.5
+flights,Flights,1,0.1,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Random credible pairs,3.383299917913973e-05,13,484.1916666666666
+flights,Flights,1,0.1,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Alg. 1,0.1902794580091722,163,968292.444444448
+flights,Flights,1,0.1,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Fast Alg. 1,9.383397991769016e-05,163,968290.0001915994
+flights,Flights,1,0.1,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Random credible pairs,9.362498531118037e-05,163,959428.3813858532
+flights,Flights,1,0.25,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Alg. 1,0.0001874580048024,2,2.6666666666666665
+flights,Flights,1,0.25,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Fast Alg. 1,2.733399742282927e-05,2,2.6666666666666665
+flights,Flights,1,0.25,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Random credible pairs,2.5250017642974857e-05,2,2.090909090909091
+flights,Flights,1,0.25,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Alg. 1,0.0005824170075356,13,487.5
+flights,Flights,1,0.25,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Fast Alg. 1,2.9458984499797225e-05,13,487.5
+flights,Flights,1,0.25,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Random credible pairs,2.7250003768131137e-05,13,457.338688505909
+flights,Flights,1,0.25,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Alg. 1,0.2275327499955892,163,968292.0000082408
+flights,Flights,1,0.25,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Fast Alg. 1,9.03750187717378e-05,163,968266.0164444298
+flights,Flights,1,0.25,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Random credible pairs,8.574998355470598e-05,163,925649.9000862018
+flights,Flights,1,0.5,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Alg. 1,0.0001842079800553,2,2.6666666666666665
+flights,Flights,1,0.5,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Fast Alg. 1,2.9166985768824816e-05,2,1.8803827751196172
+flights,Flights,1,0.5,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Random credible pairs,2.8082984499633312e-05,1,0.7575757575757576
+flights,Flights,1,0.5,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Alg. 1,0.0013735420070588,13,486.173439716312
+flights,Flights,1,0.5,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Fast Alg. 1,2.762500662356615e-05,13,486.1734397163121
+flights,Flights,1,0.5,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Random credible pairs,2.8875016141682863e-05,13,439.3447355068595
+flights,Flights,1,0.5,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Alg. 1,1.2047757499967702,163,968279.3342574616
+flights,Flights,1,0.5,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Fast Alg. 1,9.65000072028488e-05,163,968172.7081949709
+flights,Flights,1,0.5,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Random credible pairs,9.14169941097498e-05,163,810274.151753981
+flights,Flights,1,1.0,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Alg. 1,0.0001719589927233,2,2.6666666666666665
+flights,Flights,1,1.0,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Fast Alg. 1,2.7250003768131137e-05,1,0.3333333333333333
+flights,Flights,1,1.0,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Random credible pairs,2.6999972760677338e-05,1,0.3333333333333333
+flights,Flights,1,1.0,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Alg. 1,0.0023792920110281,13,480.1255906893618
+flights,Flights,1,1.0,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Fast Alg. 1,2.9207993065938354e-05,13,480.1255906893618
+flights,Flights,1,1.0,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Random credible pairs,2.8708018362522125e-05,11,324.53009186450834
+flights,Flights,1,1.0,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Alg. 1,1.5253807920089455,163,968203.1390291096
+flights,Flights,1,1.0,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Fast Alg. 1,9.862499427981676e-05,163,967773.652969018
+flights,Flights,1,1.0,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Random credible pairs,9.50000248849392e-05,156,569721.3976078129
+flights,Flights,2,0.1,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Alg. 1,0.0001888749829959,2,2.6666666666666665
+flights,Flights,2,0.1,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Fast Alg. 1,2.562499139457941e-05,2,2.6666666666666665
+flights,Flights,2,0.1,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Random credible pairs,2.4500011932104823e-05,2,2.6666666666666665
+flights,Flights,2,0.1,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Alg. 1,0.0005854170012753,13,487.5
+flights,Flights,2,0.1,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Fast Alg. 1,3.037499845959246e-05,13,487.5
+flights,Flights,2,0.1,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Random credible pairs,3.116601146757603e-05,13,486.8351063829787
+flights,Flights,2,0.1,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Alg. 1,0.1095057500060647,163,968292.444444448
+flights,Flights,2,0.1,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Fast Alg. 1,0.0001056670153047,163,968292.2222263444
+flights,Flights,2,0.1,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Random credible pairs,0.0001001249765977,163,963352.9072792024
+flights,Flights,2,0.25,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Alg. 1,0.0001920000067912,2,2.6666666666666665
+flights,Flights,2,0.25,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Fast Alg. 1,2.5709014153108e-05,2,2.6666666666666665
+flights,Flights,2,0.25,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Random credible pairs,2.416700590401888e-05,2,2.6666666666666665
+flights,Flights,2,0.25,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Alg. 1,0.0005379589856602,13,487.5
+flights,Flights,2,0.25,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Fast Alg. 1,3.108399687334895e-05,13,487.5
+flights,Flights,2,0.25,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Random credible pairs,2.899998798966408e-05,13,472.6139001262458
+flights,Flights,2,0.25,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Alg. 1,0.5580818330054171,163,968290.6667486008
+flights,Flights,2,0.25,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Fast Alg. 1,9.204098023474216e-05,163,968284.6685613766
+flights,Flights,2,0.25,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Random credible pairs,8.441600948572159e-05,163,937917.1010435768
+flights,Flights,2,0.5,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Alg. 1,0.000195916974917,2,2.6666666666666665
+flights,Flights,2,0.5,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Fast Alg. 1,2.6875000912696123e-05,2,2.6666666666666665
+flights,Flights,2,0.5,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Random credible pairs,2.562499139457941e-05,2,2.6666666666666665
+flights,Flights,2,0.5,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Alg. 1,0.0004360000020824,13,487.5
+flights,Flights,2,0.5,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Fast Alg. 1,2.954201772809029e-05,13,487.5
+flights,Flights,2,0.5,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Random credible pairs,2.8040987672284245e-05,13,416.5403977618138
+flights,Flights,2,0.5,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Alg. 1,1.162853207992157,163,968280.8910821048
+flights,Flights,2,0.5,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Fast Alg. 1,0.0001020830241031,163,968247.3696984032
+flights,Flights,2,0.5,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Random credible pairs,0.0001102499954868,163,854235.392048983
+flights,Flights,2,1.0,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Alg. 1,0.0001947080017998,2,2.6666666666666665
+flights,Flights,2,1.0,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Fast Alg. 1,2.5834015104919672e-05,2,2.4561403508771926
+flights,Flights,2,1.0,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Random credible pairs,2.5833986001089215e-05,2,2.4561403508771926
+flights,Flights,2,1.0,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Alg. 1,0.0017700419994071,13,486.1766666666666
+flights,Flights,2,1.0,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Fast Alg. 1,2.8250011382624507e-05,13,486.1766666666667
+flights,Flights,2,1.0,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Random credible pairs,2.7416012017056343e-05,13,332.60316857618443
+flights,Flights,2,1.0,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Alg. 1,1.2321716669830494,163,968225.3786151004
+flights,Flights,2,1.0,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Fast Alg. 1,0.0001017920149024,163,968082.9826030128
+flights,Flights,2,1.0,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Random credible pairs,0.0001024579978547,162,630455.3064605718
+flights,Flights,3,0.1,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Alg. 1,0.0001880410127341,2,2.6666666666666665
+flights,Flights,3,0.1,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Fast Alg. 1,2.6416993932798505e-05,2,2.6666666666666665
+flights,Flights,3,0.1,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Random credible pairs,2.529201447032392e-05,2,2.6666666666666665
+flights,Flights,3,0.1,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Alg. 1,0.0005867920117452,13,487.5
+flights,Flights,3,0.1,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Fast Alg. 1,3.220798680558801e-05,13,487.5
+flights,Flights,3,0.1,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Random credible pairs,3.29169852193445e-05,13,475.3513620040058
+flights,Flights,3,0.1,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Alg. 1,0.1787330840015784,163,968292.444444448
+flights,Flights,3,0.1,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Fast Alg. 1,9.82500205282122e-05,163,968292.2222263444
+flights,Flights,3,0.1,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Random credible pairs,0.0001022910000756,163,956153.5460836316
+flights,Flights,3,0.25,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Alg. 1,0.0001942499948199,2,2.6666666666666665
+flights,Flights,3,0.25,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Fast Alg. 1,2.962499274872243e-05,2,2.6666666666666665
+flights,Flights,3,0.25,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Random credible pairs,2.7125002816319466e-05,2,2.245614035087719
+flights,Flights,3,0.25,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Alg. 1,0.0007651250052731,13,487.5
+flights,Flights,3,0.25,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Fast Alg. 1,3.6500015994533896e-05,13,487.5
+flights,Flights,3,0.25,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Random credible pairs,3.22920095641166e-05,13,444.4548867859562
+flights,Flights,3,0.25,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Alg. 1,0.8865388330013957,163,968289.5556335924
+flights,Flights,3,0.25,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Fast Alg. 1,9.824999142438172e-05,163,968283.3353255744
+flights,Flights,3,0.25,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Random credible pairs,9.74580179899931e-05,163,913256.2683747114
+flights,Flights,3,0.5,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Alg. 1,0.0002107500040438,2,2.6666666666666665
+flights,Flights,3,0.5,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Fast Alg. 1,3.195900353603065e-05,2,2.245614035087719
+flights,Flights,3,0.5,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Random credible pairs,3.083399496972561e-05,1,1.1228070175438596
+flights,Flights,3,0.5,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Alg. 1,0.001231958012795,13,486.3918439716312
+flights,Flights,3,0.5,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Fast Alg. 1,4.6959001338109374e-05,13,486.3918439716312
+flights,Flights,3,0.5,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Random credible pairs,3.200001083314419e-05,13,370.06378334610224
+flights,Flights,3,0.5,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Alg. 1,1.4022660829941742,163,968260.2268167558
+flights,Flights,3,0.5,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Fast Alg. 1,0.0001002920034807,163,968234.040632084
+flights,Flights,3,0.5,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Random credible pairs,0.0001053749874699,163,774826.0679170082
+flights,Flights,3,1.0,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Alg. 1,0.0001722089946269,2,2.245614035087719
+flights,Flights,3,1.0,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Fast Alg. 1,2.666597720235586e-05,1,0.7575757575757576
+flights,Flights,3,1.0,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Random credible pairs,2.4707987904548645e-05,0,0.0
+flights,Flights,3,1.0,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Alg. 1,0.0017865419795271,13,479.212168300263
+flights,Flights,3,1.0,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Fast Alg. 1,3.920900053344667e-05,13,479.212168300263
+flights,Flights,3,1.0,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Random credible pairs,3.4249998861923814e-05,10,167.75562271199635
+flights,Flights,3,1.0,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Alg. 1,1.8484901250049008,163,968101.2325180306
+flights,Flights,3,1.0,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Fast Alg. 1,9.529097587801516e-05,163,968009.0469035844
+flights,Flights,3,1.0,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Random credible pairs,8.908397285267711e-05,148,533665.2542637038
+flights,Flights,4,0.1,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Alg. 1,0.0001950409787241,2,2.6666666666666665
+flights,Flights,4,0.1,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Fast Alg. 1,2.579198917374015e-05,2,2.6666666666666665
+flights,Flights,4,0.1,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Random credible pairs,2.462498378008604e-05,2,2.6666666666666665
+flights,Flights,4,0.1,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Alg. 1,0.0005091659841127,13,487.5
+flights,Flights,4,0.1,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Fast Alg. 1,2.9749993700534105e-05,13,487.5
+flights,Flights,4,0.1,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Random credible pairs,2.833301550708711e-05,13,484.6406146572104
+flights,Flights,4,0.1,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Alg. 1,0.2756582080037333,163,968292.2222263444
+flights,Flights,4,0.1,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Fast Alg. 1,9.579097968526185e-05,163,968292.2222263444
+flights,Flights,4,0.1,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Random credible pairs,0.0001091249869205,163,960479.0098051846
+flights,Flights,4,0.25,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Alg. 1,0.0001824999926611,2,2.6666666666666665
+flights,Flights,4,0.25,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Fast Alg. 1,2.541701542213559e-05,2,2.6666666666666665
+flights,Flights,4,0.25,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Random credible pairs,3.8124999264255166e-05,2,2.245614035087719
+flights,Flights,4,0.25,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Alg. 1,0.0005957079993095,13,487.5
+flights,Flights,4,0.25,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Fast Alg. 1,2.9582995921373367e-05,13,487.5
+flights,Flights,4,0.25,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Random credible pairs,3.125000512227416e-05,13,464.05037214529847
+flights,Flights,4,0.25,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Alg. 1,0.5086406249902211,163,968286.4462327334
+flights,Flights,4,0.25,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Fast Alg. 1,0.0001105830015148,163,968286.4455451728
+flights,Flights,4,0.25,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Random credible pairs,0.0001015409943647,163,927897.8008443768
+flights,Flights,4,0.5,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Alg. 1,0.0002163329918403,2,2.6666666666666665
+flights,Flights,4,0.5,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Fast Alg. 1,2.6416993932798505e-05,2,2.6666666666666665
+flights,Flights,4,0.5,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Random credible pairs,3.72079957742244e-05,2,2.6666666666666665
+flights,Flights,4,0.5,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Alg. 1,0.001167374983197,13,486.3950709219858
+flights,Flights,4,0.5,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Fast Alg. 1,3.950000973418355e-05,13,486.3950709219858
+flights,Flights,4,0.5,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Random credible pairs,3.64589795935899e-05,13,417.3991703165158
+flights,Flights,4,0.5,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Alg. 1,1.409263584006112,163,968253.821566368
+flights,Flights,4,0.5,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Fast Alg. 1,0.0001039580092765,163,968251.1405370923
+flights,Flights,4,0.5,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Random credible pairs,0.0001049159909598,163,852748.346669895
+flights,Flights,4,1.0,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Alg. 1,0.0002970420173369,2,2.6666666666666665
+flights,Flights,4,1.0,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Fast Alg. 1,3.308401210233569e-05,2,2.6666666666666665
+flights,Flights,4,1.0,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Random credible pairs,3.0916009563952684e-05,0,0.0
+flights,Flights,4,1.0,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Alg. 1,0.0017633749812375,13,480.2960453688208
+flights,Flights,4,1.0,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Fast Alg. 1,3.108402597717941e-05,13,480.2960453688209
+flights,Flights,4,1.0,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Random credible pairs,2.841599052771926e-05,12,275.5113299253951
+flights,Flights,4,1.0,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Alg. 1,1.8094759169907777,163,968109.7390250214
+flights,Flights,4,1.0,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Fast Alg. 1,9.33330156840384e-05,163,968090.446671332
+flights,Flights,4,1.0,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Random credible pairs,9.216699982061982e-05,158,621173.9194396203
+flights,Flights,0,0.1,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Single best pair,9.345798753201962e-05,1,1.3333333333333333
+flights,Flights,0,0.1,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Single best pair,7.966699195094407e-05,1,37.5
+flights,Flights,0,0.1,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Single best pair,0.00481574999867,1,5940.444444444444
+flights,Flights,0,0.25,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Single best pair,7.429200923070312e-05,1,1.3333333333333333
+flights,Flights,0,0.25,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Single best pair,7.991699385456741e-05,1,37.5
+flights,Flights,0,0.25,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Single best pair,0.0053950830188114,1,5940.444444444444
+flights,Flights,0,0.5,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Single best pair,8.34170205052942e-05,1,1.3333333333333333
+flights,Flights,0,0.5,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Single best pair,6.583301001228392e-05,1,37.5
+flights,Flights,0,0.5,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Single best pair,0.005363040982047,1,5940.444444444444
+flights,Flights,0,1.0,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Single best pair,8.150000940077007e-05,1,1.3333333333333333
+flights,Flights,0,1.0,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Single best pair,0.0001779579906724,1,37.5
+flights,Flights,0,1.0,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Single best pair,0.0051993749802932,1,5940.444444444444
+flights,Flights,1,0.1,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Single best pair,8.566700853407383e-05,1,1.3333333333333333
+flights,Flights,1,0.1,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Single best pair,7.645800360478461e-05,1,37.5
+flights,Flights,1,0.1,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Single best pair,0.004934750002576,1,5940.444444444444
+flights,Flights,1,0.25,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Single best pair,6.541601032949984e-05,1,1.3333333333333333
+flights,Flights,1,0.25,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Single best pair,6.675001350231469e-05,1,37.5
+flights,Flights,1,0.25,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Single best pair,0.0053124590194784,1,5940.444444444444
+flights,Flights,1,0.5,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Single best pair,8.541697752662003e-05,1,1.3333333333333333
+flights,Flights,1,0.5,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Single best pair,7.029200787656009e-05,1,37.5
+flights,Flights,1,0.5,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Single best pair,0.0051320829952601,1,5940.444444444444
+flights,Flights,1,1.0,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Single best pair,9.737498476170003e-05,1,1.3333333333333333
+flights,Flights,1,1.0,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Single best pair,7.458298932760954e-05,1,37.5
+flights,Flights,1,1.0,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Single best pair,0.0053818750020582,1,5940.444444444444
+flights,Flights,2,0.1,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Single best pair,8.095797966234386e-05,1,1.3333333333333333
+flights,Flights,2,0.1,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Single best pair,7.558398647233844e-05,1,37.5
+flights,Flights,2,0.1,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Single best pair,0.0048557909904047,1,5940.444444444444
+flights,Flights,2,0.25,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Single best pair,8.900000830180943e-05,1,1.3333333333333333
+flights,Flights,2,0.25,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Single best pair,6.66659907437861e-05,1,37.5
+flights,Flights,2,0.25,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Single best pair,0.004966541979229,1,5940.444444444444
+flights,Flights,2,0.5,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Single best pair,0.000102040998172,1,1.3333333333333333
+flights,Flights,2,0.5,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Single best pair,6.979197496548295e-05,1,37.5
+flights,Flights,2,0.5,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Single best pair,0.0051187079807277,1,5940.444444444444
+flights,Flights,2,1.0,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Single best pair,9.966699872165918e-05,1,1.3333333333333333
+flights,Flights,2,1.0,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Single best pair,0.0001089159923139,1,37.5
+flights,Flights,2,1.0,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Single best pair,0.0051381670054979,1,5940.444444444444
+flights,Flights,3,0.1,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Single best pair,8.320901542901993e-05,1,1.3333333333333333
+flights,Flights,3,0.1,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Single best pair,0.0001177090161945,1,37.5
+flights,Flights,3,0.1,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Single best pair,0.0052649159915745,1,5940.444444444444
+flights,Flights,3,0.25,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Single best pair,9.737501386553048e-05,1,1.3333333333333333
+flights,Flights,3,0.25,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Single best pair,9.68750100582838e-05,1,37.5
+flights,Flights,3,0.25,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Single best pair,0.0054800829966552,1,5940.444444444444
+flights,Flights,3,0.5,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Single best pair,8.9749984908849e-05,1,1.3333333333333333
+flights,Flights,3,0.5,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Single best pair,7.416700827889144e-05,1,37.5
+flights,Flights,3,0.5,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Single best pair,0.0055589580151718,1,5940.444444444444
+flights,Flights,3,1.0,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Single best pair,0.0001036660105455,1,1.1228070175438596
+flights,Flights,3,1.0,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Single best pair,0.0001141249958891,1,37.5
+flights,Flights,3,1.0,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Single best pair,0.0049727500008884,1,5940.444444444444
+flights,Flights,4,0.1,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Single best pair,0.0001020829949993,1,1.3333333333333333
+flights,Flights,4,0.1,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Single best pair,7.650000043213367e-05,1,37.5
+flights,Flights,4,0.1,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Single best pair,0.0047079579962883,1,5940.444444444444
+flights,Flights,4,0.25,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Single best pair,9.670801227912308e-05,1,1.3333333333333333
+flights,Flights,4,0.25,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Single best pair,7.733399979770184e-05,1,37.5
+flights,Flights,4,0.25,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Single best pair,0.0049871669907588,1,5940.444444444444
+flights,Flights,4,0.5,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Single best pair,7.691700011491776e-05,1,1.3333333333333333
+flights,Flights,4,0.5,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Single best pair,6.891699740663171e-05,1,37.5
+flights,Flights,4,0.5,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Single best pair,0.0049724580021575,1,5940.444444444444
+flights,Flights,4,1.0,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Single best pair,8.279198664240539e-05,1,1.3333333333333333
+flights,Flights,4,1.0,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Single best pair,7.083298987708986e-05,1,37.5
+flights,Flights,4,1.0,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Single best pair,0.005095041997265,1,5940.444444444444
+flights,Flights,0,0.1,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Single random pair,4.6375003876164556e-05,1,1.3333333333333333
+flights,Flights,0,0.1,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Single random pair,2.9125018045306206e-05,1,37.5
+flights,Flights,0,0.1,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Single random pair,3.654099418781698e-05,1,5920.254066588219
+flights,Flights,0,0.25,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Single random pair,3.420800203457475e-05,1,1.3333333333333333
+flights,Flights,0,0.25,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Single random pair,2.9082992114126682e-05,1,35.327715355805246
+flights,Flights,0,0.25,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Single random pair,3.012499655596912e-05,1,5809.448582251251
+flights,Flights,0,0.5,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Single random pair,4.8542016884312034e-05,1,0.3333333333333333
+flights,Flights,0,0.5,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Single random pair,3.612501313909888e-05,1,37.5
+flights,Flights,0,0.5,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Single random pair,2.6124995201826096e-05,1,5693.943921377949
+flights,Flights,0,1.0,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Single random pair,5.7833007303997874e-05,1,1.3333333333333333
+flights,Flights,0,1.0,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Single random pair,2.649999805726111e-05,1,37.5
+flights,Flights,0,1.0,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Single random pair,3.0542025342583656e-05,1,1001.3819894845915
+flights,Flights,1,0.1,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Single random pair,3.9332982851192355e-05,1,1.3333333333333333
+flights,Flights,1,0.1,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Single random pair,2.7375004719942808e-05,1,37.27836879432624
+flights,Flights,1,0.1,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Single random pair,3.458300489000976e-05,1,5913.8325601036295
+flights,Flights,1,0.25,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Single random pair,4.9708003643900156e-05,1,1.3333333333333333
+flights,Flights,1,0.25,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Single random pair,2.600002335384488e-05,1,34.27396280400572
+flights,Flights,1,0.25,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Single random pair,3.820800338871777e-05,1,5673.0956946190045
+flights,Flights,1,0.5,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Single random pair,5.125001189298928e-05,1,0.7575757575757576
+flights,Flights,1,0.5,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Single random pair,3.12910124193877e-05,1,26.486810551558754
+flights,Flights,1,0.5,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Single random pair,3.3042015274986625e-05,1,5361.896601513409
+flights,Flights,1,1.0,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Single random pair,6.654098979197443e-05,1,1.3333333333333333
+flights,Flights,1,1.0,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Single random pair,2.6374997105449438e-05,1,20.355072463768117
+flights,Flights,1,1.0,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Single random pair,2.6124995201826096e-05,1,5003.669240685348
+flights,Flights,2,0.1,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Single random pair,4.3750012991949916e-05,1,1.3333333333333333
+flights,Flights,2,0.1,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Single random pair,3.0458992114290595e-05,1,37.5
+flights,Flights,2,0.1,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Single random pair,3.125000512227416e-05,1,5874.104703369513
+flights,Flights,2,0.25,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Single random pair,4.82079922221601e-05,1,1.3333333333333333
+flights,Flights,2,0.25,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Single random pair,4.3249980080872774e-05,1,36.185579196217496
+flights,Flights,2,0.25,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Single random pair,2.99170205835253e-05,1,5769.172055304035
+flights,Flights,2,0.5,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Single random pair,4.933300078846514e-05,1,1.3333333333333333
+flights,Flights,2,0.5,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Single random pair,5.604198668152094e-05,1,37.27836879432624
+flights,Flights,2,0.5,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Single random pair,2.8000009479001164e-05,1,5928.23404816776
+flights,Flights,2,1.0,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Single random pair,4.829201498068869e-05,1,1.1228070175438596
+flights,Flights,2,1.0,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Single random pair,4.1624996811151505e-05,1,11.628125
+flights,Flights,2,1.0,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Single random pair,3.187498077750206e-05,1,5704.064270813298
+flights,Flights,3,0.1,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Single random pair,4.645899753086269e-05,1,1.3333333333333333
+flights,Flights,3,0.1,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Single random pair,3.383299917913973e-05,1,36.83833333333333
+flights,Flights,3,0.1,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Single random pair,3.183301305398345e-05,1,5902.55394345865
+flights,Flights,3,0.25,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Single random pair,5.137498374097049e-05,1,1.3333333333333333
+flights,Flights,3,0.25,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Single random pair,3.0665978556498885e-05,1,34.27396280400572
+flights,Flights,3,0.25,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Single random pair,2.9791990527883172e-05,1,5693.943921377949
+flights,Flights,3,0.5,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Single random pair,5.1292008720338345e-05,1,1.3333333333333333
+flights,Flights,3,0.5,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Single random pair,3.4374999813735485e-05,1,18.183060109289617
+flights,Flights,3,0.5,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Single random pair,3.9834005292505026e-05,1,5917.153279060028
+flights,Flights,3,1.0,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Single random pair,7.104201358743012e-05,1,1.1228070175438596
+flights,Flights,3,1.0,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Single random pair,2.7125002816319466e-05,1,15.986312399355878
+flights,Flights,3,1.0,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Single random pair,4.1916006011888385e-05,1,5200.720624199371
+flights,Flights,4,0.1,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Single random pair,5.00410096719861e-05,1,1.3333333333333333
+flights,Flights,4,0.1,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Single random pair,3.420800203457475e-05,1,36.83833333333333
+flights,Flights,4,0.1,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Single random pair,3.724999260157347e-05,1,5917.153279060028
+flights,Flights,4,0.25,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Single random pair,4.9542024498805404e-05,1,1.1228070175438596
+flights,Flights,4,0.25,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Single random pair,3.179200575686991e-05,1,35.327715355805246
+flights,Flights,4,0.25,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Single random pair,3.320799442008138e-05,1,5939.77781462444
+flights,Flights,4,0.5,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Single random pair,4.837499000132084e-05,1,0.7575757575757576
+flights,Flights,4,0.5,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Single random pair,2.641702303662896e-05,1,33.034979423868315
+flights,Flights,4,0.5,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Single random pair,3.575001028366387e-05,1,5593.824633230979
+flights,Flights,4,1.0,1,"[""price_category""]",Price,[5],5,5,1.0,mean,Single random pair,4.7124980483204126e-05,1,1.3333333333333333
+flights,Flights,4,1.0,2,"[""price_category"", ""airline""]",Price × Airline,"[5, 6]",26,30,0.8666666666666667,mean,Single random pair,3.4208991564810276e-05,1,36.185579196217496
+flights,Flights,4,1.0,3,"[""price_category"", ""airline"", ""days_category""]",Price × Airline × Days left,"[5, 6, 13]",327,390,0.8384615384615385,mean,Single random pair,3.433300298638642e-05,1,5723.6939297188155

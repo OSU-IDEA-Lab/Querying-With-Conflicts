@@ -1,0 +1,301 @@
+dataset,dataset_label,run,lambda,num_attributes,attributes,attribute_labels,cardinalities,observed_groups,possible_groups,observed_density,bias_aggregate,strategy,seconds,pairs,query_utility
+amazon,Amazon,0,0.1,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Alg. 1,0.0810400419868528,3,5.833333333333333
+amazon,Amazon,0,0.1,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Fast Alg. 1,2.9749993700534105e-05,3,5.833333333333333
+amazon,Amazon,0,0.1,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Random credible pairs,2.649999805726111e-05,3,5.833333333333333
+amazon,Amazon,0,0.1,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Single best pair,7.20839889254421e-05,1,1.9444444444444444
+amazon,Amazon,0,0.1,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Alg. 1,0.0020479589875321,30,5998.333333333331
+amazon,Amazon,0,0.1,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Fast Alg. 1,4.1332998080179095e-05,30,5998.333333333331
+amazon,Amazon,0,0.1,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Random credible pairs,3.8291997043415904e-05,30,5951.750460569059
+amazon,Amazon,0,0.1,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Single best pair,0.0001788340159691,1,199.94444444444449
+amazon,Amazon,0,0.1,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Alg. 1,3.401251917006448,442,19232493.33377634
+amazon,Amazon,0,0.1,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Fast Alg. 1,0.0010082499939016,442,19232493.33377634
+amazon,Amazon,0,0.1,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Random credible pairs,0.0001857919851318,442,19115051.938692547
+amazon,Amazon,0,0.1,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Single best pair,0.0418899159994907,1,43512.444444444445
+amazon,Amazon,0,0.25,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Alg. 1,0.0001837080053519,3,5.833333333333333
+amazon,Amazon,0,0.25,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Fast Alg. 1,3.041699528694153e-05,3,5.833333333333333
+amazon,Amazon,0,0.25,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Random credible pairs,3.762499545700848e-05,3,5.61965811965812
+amazon,Amazon,0,0.25,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Single best pair,7.075001485645771e-05,1,1.9444444444444444
+amazon,Amazon,0,0.25,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Alg. 1,0.0052241670200601,30,5997.8891241691645
+amazon,Amazon,0,0.25,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Fast Alg. 1,3.89580090995878e-05,30,5997.8891241691645
+amazon,Amazon,0,0.25,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Random credible pairs,4.4666987378150225e-05,30,5726.657149176308
+amazon,Amazon,0,0.25,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Single best pair,0.0002108330081682,1,199.94444444444449
+amazon,Amazon,0,0.25,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Alg. 1,5.17481399999815,442,19232438.69114669
+amazon,Amazon,0,0.25,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Fast Alg. 1,0.0001798330049496,442,19232438.69114668
+amazon,Amazon,0,0.25,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Random credible pairs,0.0001932090090122,442,18641056.39016065
+amazon,Amazon,0,0.25,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Single best pair,0.0431242499907966,1,43512.444444444445
+amazon,Amazon,0,0.5,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Alg. 1,0.0001822089834604,3,5.833333333333333
+amazon,Amazon,0,0.5,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Fast Alg. 1,3.391699283383787e-05,3,5.833333333333333
+amazon,Amazon,0,0.5,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Random credible pairs,4.1292019886896014e-05,3,4.633333333333334
+amazon,Amazon,0,0.5,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Single best pair,8.691599941812456e-05,1,1.9444444444444444
+amazon,Amazon,0,0.5,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Alg. 1,0.0139054160099476,30,5994.348348116093
+amazon,Amazon,0,0.5,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Fast Alg. 1,4.583399277180433e-05,30,5994.348348116093
+amazon,Amazon,0,0.5,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Random credible pairs,4.520799848251045e-05,30,5077.153389681272
+amazon,Amazon,0,0.5,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Single best pair,0.000217333988985,1,199.94444444444449
+amazon,Amazon,0,0.5,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Alg. 1,17.087152124993736,442,19232225.507472467
+amazon,Amazon,0,0.5,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Fast Alg. 1,0.0001812920090742,442,19232225.507472463
+amazon,Amazon,0,0.5,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Random credible pairs,0.0001783340121619,442,17247925.685411736
+amazon,Amazon,0,0.5,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Single best pair,0.0405634170165285,1,43512.444444444445
+amazon,Amazon,0,1.0,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Alg. 1,0.0002155000111088,3,5.405982905982906
+amazon,Amazon,0,1.0,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Fast Alg. 1,3.32500203512609e-05,3,5.405982905982906
+amazon,Amazon,0,1.0,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Random credible pairs,2.7582980692386627e-05,3,5.1923076923076925
+amazon,Amazon,0,1.0,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Single best pair,6.970798131078482e-05,1,1.9444444444444444
+amazon,Amazon,0,1.0,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Alg. 1,0.0135707089793868,30,5973.117569470172
+amazon,Amazon,0,1.0,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Fast Alg. 1,3.779100370593369e-05,30,5973.117569470172
+amazon,Amazon,0,1.0,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Random credible pairs,5.470801261253655e-05,30,3387.413139717525
+amazon,Amazon,0,1.0,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Single best pair,0.0002204169868491,1,199.94444444444449
+amazon,Amazon,0,1.0,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Alg. 1,37.129684167011874,442,19231331.065644477
+amazon,Amazon,0,1.0,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Fast Alg. 1,0.0001928330166265,442,19231331.06564447
+amazon,Amazon,0,1.0,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Random credible pairs,0.0001815420109778,439,13839569.973476356
+amazon,Amazon,0,1.0,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Single best pair,0.0410877079993952,1,43512.444444444445
+amazon,Amazon,1,0.1,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Alg. 1,0.00017637500423,3,5.833333333333333
+amazon,Amazon,1,0.1,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Fast Alg. 1,2.6958005037158728e-05,3,5.833333333333333
+amazon,Amazon,1,0.1,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Random credible pairs,2.5332992663607e-05,3,5.833333333333333
+amazon,Amazon,1,0.1,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Single best pair,6.26669789198786e-05,1,1.9444444444444444
+amazon,Amazon,1,0.1,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Alg. 1,0.0023484170087613,30,5998.333333333331
+amazon,Amazon,1,0.1,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Fast Alg. 1,3.4167023841291666e-05,30,5998.333333333331
+amazon,Amazon,1,0.1,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Random credible pairs,3.125000512227416e-05,30,5977.105294647392
+amazon,Amazon,1,0.1,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Single best pair,0.0001962920068763,1,199.94444444444449
+amazon,Amazon,1,0.1,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Alg. 1,4.229753999999957,442,19232499.333339404
+amazon,Amazon,1,0.1,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Fast Alg. 1,0.0001864579971879,442,19232499.333339404
+amazon,Amazon,1,0.1,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Random credible pairs,0.0001877920003607,442,19148734.60449956
+amazon,Amazon,1,0.1,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Single best pair,0.0398609159747138,1,43512.444444444445
+amazon,Amazon,1,0.25,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Alg. 1,0.0001878750044852,3,5.833333333333333
+amazon,Amazon,1,0.25,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Fast Alg. 1,2.8584006940945983e-05,3,5.833333333333333
+amazon,Amazon,1,0.25,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Random credible pairs,2.7291971491649747e-05,3,5.833333333333333
+amazon,Amazon,1,0.25,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Single best pair,6.787499296478927e-05,1,1.9444444444444444
+amazon,Amazon,1,0.25,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Alg. 1,0.0019668339809868,30,5998.333333333331
+amazon,Amazon,1,0.25,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Fast Alg. 1,3.8875004975125194e-05,30,5998.333333333331
+amazon,Amazon,1,0.25,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Random credible pairs,3.591700806282461e-05,30,5823.868019157687
+amazon,Amazon,1,0.25,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Single best pair,0.0002192090032622,1,199.94444444444449
+amazon,Amazon,1,0.25,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Alg. 1,6.4422082920209505,442,19232486.000463184
+amazon,Amazon,1,0.25,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Fast Alg. 1,0.0001841250050347,442,19232486.000463177
+amazon,Amazon,1,0.25,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Random credible pairs,0.0001572920009493,442,18760443.43648552
+amazon,Amazon,1,0.25,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Single best pair,0.0394766249810345,1,43512.444444444445
+amazon,Amazon,1,0.5,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Alg. 1,0.0001861249911598,3,5.833333333333333
+amazon,Amazon,1,0.5,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Fast Alg. 1,2.691699774004519e-05,3,5.833333333333333
+amazon,Amazon,1,0.5,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Random credible pairs,2.7125002816319466e-05,3,5.61965811965812
+amazon,Amazon,1,0.5,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Single best pair,6.579101318493485e-05,1,1.9444444444444444
+amazon,Amazon,1,0.5,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Alg. 1,0.0039970409998204,30,5997.444915004998
+amazon,Amazon,1,0.5,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Fast Alg. 1,4.454201553016901e-05,30,5997.444915004998
+amazon,Amazon,1,0.5,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Random credible pairs,5.49999822396785e-05,30,5529.810297240592
+amazon,Amazon,1,0.5,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Single best pair,0.0002224589989054,1,199.94444444444449
+amazon,Amazon,1,0.5,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Alg. 1,17.63744379201671,442,19232411.56779193
+amazon,Amazon,1,0.5,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Fast Alg. 1,0.0001897499896585,442,19232411.567791924
+amazon,Amazon,1,0.5,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Random credible pairs,0.0001720000000204,442,17723048.981763564
+amazon,Amazon,1,0.5,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Single best pair,0.0426075419818516,1,43512.444444444445
+amazon,Amazon,1,1.0,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Alg. 1,0.0001782089821062,3,5.833333333333333
+amazon,Amazon,1,1.0,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Fast Alg. 1,2.700000186450779e-05,3,5.833333333333333
+amazon,Amazon,1,1.0,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Random credible pairs,2.5374989490956068e-05,3,5.833333333333333
+amazon,Amazon,1,1.0,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Single best pair,6.704099359922111e-05,1,1.9444444444444444
+amazon,Amazon,1,1.0,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Alg. 1,0.0072650839865673,30,5991.467560899279
+amazon,Amazon,1,1.0,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Fast Alg. 1,3.5959004890173674e-05,30,5991.467560899279
+amazon,Amazon,1,1.0,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Random credible pairs,3.354198997840285e-05,30,4758.479189888425
+amazon,Amazon,1,1.0,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Single best pair,0.0001952910097315,1,199.94444444444449
+amazon,Amazon,1,1.0,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Alg. 1,26.92274300000281,442,19232058.680772036
+amazon,Amazon,1,1.0,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Fast Alg. 1,0.0001912500010803,442,19232058.68077203
+amazon,Amazon,1,1.0,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Random credible pairs,0.000171624997165,442,14949141.328532076
+amazon,Amazon,1,1.0,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Single best pair,0.0408508750260807,1,43512.444444444445
+amazon,Amazon,2,0.1,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Alg. 1,0.0001860829943325,3,5.833333333333333
+amazon,Amazon,2,0.1,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Fast Alg. 1,2.4834007490426305e-05,3,5.833333333333333
+amazon,Amazon,2,0.1,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Random credible pairs,2.5249988539144397e-05,3,5.833333333333333
+amazon,Amazon,2,0.1,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Single best pair,6.391698843799531e-05,1,1.9444444444444444
+amazon,Amazon,2,0.1,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Alg. 1,0.00271087497822,30,5998.333333333331
+amazon,Amazon,2,0.1,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Fast Alg. 1,3.533400013111532e-05,30,5998.333333333331
+amazon,Amazon,2,0.1,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Random credible pairs,3.454202669672668e-05,30,5924.260943091493
+amazon,Amazon,2,0.1,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Single best pair,0.0001826669904403,1,199.94444444444449
+amazon,Amazon,2,0.1,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Alg. 1,5.282172250008443,442,19232499.111114368
+amazon,Amazon,2,0.1,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Fast Alg. 1,0.0002023330016527,442,19232489.33446109
+amazon,Amazon,2,0.1,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Random credible pairs,0.0001862920180428,442,19082952.42642193
+amazon,Amazon,2,0.1,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Single best pair,0.0412058329966384,1,43512.444444444445
+amazon,Amazon,2,0.25,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Alg. 1,0.000213999999687,3,5.61965811965812
+amazon,Amazon,2,0.25,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Fast Alg. 1,5.1000009989365935e-05,3,5.619658119658119
+amazon,Amazon,2,0.25,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Random credible pairs,3.9708014810457826e-05,3,5.233333333333333
+amazon,Amazon,2,0.25,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Single best pair,7.162502151913941e-05,1,1.9444444444444444
+amazon,Amazon,2,0.25,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Alg. 1,0.0022312499932013,30,5998.333333333331
+amazon,Amazon,2,0.25,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Fast Alg. 1,4.5082997530698776e-05,30,5998.333333333331
+amazon,Amazon,2,0.25,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Random credible pairs,4.8290996346622705e-05,30,5506.263223539388
+amazon,Amazon,2,0.25,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Single best pair,0.0001691659854259,1,199.94444444444449
+amazon,Amazon,2,0.25,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Alg. 1,8.332770333014196,442,19232481.7781418
+amazon,Amazon,2,0.25,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Fast Alg. 1,0.0001942919916473,442,19232411.83480168
+amazon,Amazon,2,0.25,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Random credible pairs,0.0001899159979075,442,18423955.903900683
+amazon,Amazon,2,0.25,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Single best pair,0.0408503329963423,1,43512.444444444445
+amazon,Amazon,2,0.5,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Alg. 1,0.0002281670167576,3,5.233333333333333
+amazon,Amazon,2,0.5,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Fast Alg. 1,2.7708010748028755e-05,3,5.233333333333333
+amazon,Amazon,2,0.5,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Random credible pairs,3.7707999581471086e-05,3,3.818681318681319
+amazon,Amazon,2,0.5,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Single best pair,7.591600297018886e-05,1,1.9444444444444444
+amazon,Amazon,2,0.5,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Alg. 1,0.0117057500174269,30,5996.335740696481
+amazon,Amazon,2,0.5,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Fast Alg. 1,3.608298720791936e-05,30,5996.335740696481
+amazon,Amazon,2,0.5,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Random credible pairs,3.341599949635565e-05,30,4587.117408631347
+amazon,Amazon,2,0.5,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Single best pair,0.0001899999915622,1,199.94444444444449
+amazon,Amazon,2,0.5,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Alg. 1,22.119471042009536,442,19232380.008580197
+amazon,Amazon,2,0.5,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Fast Alg. 1,0.0001794170239008,442,19232096.23723322
+amazon,Amazon,2,0.5,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Random credible pairs,0.0001805830106604,442,16530909.79641453
+amazon,Amazon,2,0.5,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Single best pair,0.0413692500151228,1,43512.444444444445
+amazon,Amazon,2,1.0,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Alg. 1,0.0002202499890699,2,3.675213675213675
+amazon,Amazon,2,1.0,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Fast Alg. 1,3.354198997840285e-05,2,3.675213675213675
+amazon,Amazon,2,1.0,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Random credible pairs,3.087500226683915e-05,1,1.9444444444444444
+amazon,Amazon,2,1.0,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Single best pair,8.016699575819075e-05,1,1.9444444444444444
+amazon,Amazon,2,1.0,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Alg. 1,0.012214334012242,30,5985.283447936479
+amazon,Amazon,2,1.0,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Fast Alg. 1,3.4958007745444775e-05,30,5985.283447936479
+amazon,Amazon,2,1.0,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Random credible pairs,3.354201908223331e-05,27,2797.134198612795
+amazon,Amazon,2,1.0,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Single best pair,0.0001965409901458,1,199.94444444444449
+amazon,Amazon,2,1.0,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Alg. 1,40.58720995800104,442,19231884.38836785
+amazon,Amazon,2,1.0,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Fast Alg. 1,0.0001949589932337,442,19230838.060879573
+amazon,Amazon,2,1.0,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Random credible pairs,0.0001820829929783,427,12189743.976145947
+amazon,Amazon,2,1.0,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Single best pair,0.0430686250037979,1,43512.444444444445
+amazon,Amazon,3,0.1,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Alg. 1,0.0001812080154195,3,5.833333333333333
+amazon,Amazon,3,0.1,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Fast Alg. 1,2.662499900907278e-05,3,5.833333333333333
+amazon,Amazon,3,0.1,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Random credible pairs,2.8000009479001164e-05,3,5.833333333333333
+amazon,Amazon,3,0.1,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Single best pair,6.737498915754259e-05,1,1.9444444444444444
+amazon,Amazon,3,0.1,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Alg. 1,0.0024681670183781,30,5998.333333333331
+amazon,Amazon,3,0.1,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Fast Alg. 1,5.208299262449145e-05,30,5998.333333333331
+amazon,Amazon,3,0.1,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Random credible pairs,5.92079886700958e-05,30,5950.281348592689
+amazon,Amazon,3,0.1,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Single best pair,0.0002039999817498,1,199.94444444444449
+amazon,Amazon,3,0.1,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Alg. 1,4.696862582990434,442,19232498.444456164
+amazon,Amazon,3,0.1,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Fast Alg. 1,0.0002142910088878,442,19232497.555586413
+amazon,Amazon,3,0.1,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Random credible pairs,0.0002030839968938,442,19103753.068750888
+amazon,Amazon,3,0.1,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Single best pair,0.0414996669860556,1,43512.444444444445
+amazon,Amazon,3,0.25,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Alg. 1,0.000204791984288,3,5.833333333333333
+amazon,Amazon,3,0.25,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Fast Alg. 1,3.866699989885092e-05,3,5.833333333333333
+amazon,Amazon,3,0.25,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Random credible pairs,3.820800338871777e-05,3,5.833333333333333
+amazon,Amazon,3,0.25,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Single best pair,7.870901026763022e-05,1,1.9444444444444444
+amazon,Amazon,3,0.25,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Alg. 1,0.0050619579851627,30,5997.445589305948
+amazon,Amazon,3,0.25,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Fast Alg. 1,3.8833997678011656e-05,30,5997.445589305948
+amazon,Amazon,3,0.25,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Random credible pairs,3.987498348578811e-05,30,5793.370490446838
+amazon,Amazon,3,0.25,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Single best pair,0.0002035420038737,1,199.94444444444449
+amazon,Amazon,3,0.25,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Alg. 1,10.729393209010595,442,19232476.889914554
+amazon,Amazon,3,0.25,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Fast Alg. 1,0.0001883750082924,442,19232470.668579288
+amazon,Amazon,3,0.25,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Random credible pairs,0.0001731250085867,442,18491889.22422155
+amazon,Amazon,3,0.25,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Single best pair,0.0411797910055611,1,43512.444444444445
+amazon,Amazon,3,0.5,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Alg. 1,0.0002192500105593,3,5.61965811965812
+amazon,Amazon,3,0.5,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Fast Alg. 1,2.6291003450751305e-05,3,5.61965811965812
+amazon,Amazon,3,0.5,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Random credible pairs,2.7291971491649747e-05,3,4.528749028749028
+amazon,Amazon,3,0.5,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Single best pair,6.745799328200519e-05,1,1.9444444444444444
+amazon,Amazon,3,0.5,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Alg. 1,0.0047773749975021,30,5993.4721947624885
+amazon,Amazon,3,0.5,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Fast Alg. 1,3.63329891115427e-05,30,5993.472194762488
+amazon,Amazon,3,0.5,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Random credible pairs,3.4666009014472365e-05,30,4909.442292642674
+amazon,Amazon,3,0.5,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Single best pair,0.0001987910072784,1,199.94444444444449
+amazon,Amazon,3,0.5,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Alg. 1,25.851643625006545,442,19232370.243622303
+amazon,Amazon,3,0.5,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Fast Alg. 1,0.0001980419910978,442,19232330.26373444
+amazon,Amazon,3,0.5,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Random credible pairs,0.0001887500111479,442,16714139.563153757
+amazon,Amazon,3,0.5,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Single best pair,0.041679291985929,1,43512.444444444445
+amazon,Amazon,3,1.0,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Alg. 1,0.000211250007851,3,4.528749028749029
+amazon,Amazon,3,1.0,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Fast Alg. 1,2.9000017093494534e-05,3,4.528749028749028
+amazon,Amazon,3,1.0,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Random credible pairs,2.7583999326452613e-05,0,0.0
+amazon,Amazon,3,1.0,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Single best pair,6.458300049416721e-05,1,1.9444444444444444
+amazon,Amazon,3,1.0,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Alg. 1,0.0155637090210802,30,5975.597775429569
+amazon,Amazon,3,1.0,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Fast Alg. 1,4.0790997445583344e-05,30,5975.597775429569
+amazon,Amazon,3,1.0,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Random credible pairs,3.579098847694695e-05,27,3313.0972807643116
+amazon,Amazon,3,1.0,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Single best pair,0.0002154590038117,1,199.94444444444449
+amazon,Amazon,3,1.0,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Alg. 1,44.948728957999265,442,19231854.165645897
+amazon,Amazon,3,1.0,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Fast Alg. 1,0.0002030420000664,442,19231687.55814408
+amazon,Amazon,3,1.0,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Random credible pairs,0.0001889999839477,436,12743299.577806702
+amazon,Amazon,3,1.0,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Single best pair,0.0433624160068575,1,43512.444444444445
+amazon,Amazon,4,0.1,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Alg. 1,0.0001832919951993,3,5.833333333333333
+amazon,Amazon,4,0.1,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Fast Alg. 1,2.670797402970493e-05,3,5.833333333333333
+amazon,Amazon,4,0.1,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Random credible pairs,2.8125010430812836e-05,3,5.833333333333333
+amazon,Amazon,4,0.1,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Single best pair,6.966700311750174e-05,1,1.9444444444444444
+amazon,Amazon,4,0.1,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Alg. 1,0.0025685410073492,30,5998.333333333331
+amazon,Amazon,4,0.1,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Fast Alg. 1,3.429199568927288e-05,30,5998.333333333331
+amazon,Amazon,4,0.1,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Random credible pairs,3.562498022802174e-05,30,5952.499490148004
+amazon,Amazon,4,0.1,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Single best pair,0.0001780840102583,1,199.94444444444449
+amazon,Amazon,4,0.1,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Alg. 1,3.456212332996074,442,19232499.11111775
+amazon,Amazon,4,0.1,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Fast Alg. 1,0.0002077500103041,442,19232499.11111775
+amazon,Amazon,4,0.1,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Random credible pairs,0.000209541991353,442,19086434.51549388
+amazon,Amazon,4,0.1,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Single best pair,0.0444163749925792,1,43512.444444444445
+amazon,Amazon,4,0.25,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Alg. 1,0.0001944589894264,3,5.833333333333333
+amazon,Amazon,4,0.25,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Fast Alg. 1,2.754197339527309e-05,3,5.833333333333333
+amazon,Amazon,4,0.25,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Random credible pairs,2.54589831456542e-05,3,5.619658119658119
+amazon,Amazon,4,0.25,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Single best pair,6.37090124655515e-05,1,1.9444444444444444
+amazon,Amazon,4,0.25,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Alg. 1,0.0066747920063789,30,5997.8891241691645
+amazon,Amazon,4,0.25,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Fast Alg. 1,4.429099499247968e-05,30,5997.8891241691645
+amazon,Amazon,4,0.25,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Random credible pairs,4.029198316857219e-05,30,5674.930673791164
+amazon,Amazon,4,0.25,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Single best pair,0.0002152500092051,1,199.94444444444449
+amazon,Amazon,4,0.25,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Alg. 1,11.095983375009382,442,19232478.000504114
+amazon,Amazon,4,0.25,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Fast Alg. 1,0.0002014159981627,442,19232478.000504117
+amazon,Amazon,4,0.25,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Random credible pairs,0.0001897909969557,442,18424509.568473145
+amazon,Amazon,4,0.25,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Single best pair,0.0413110420049633,1,43512.444444444445
+amazon,Amazon,4,0.5,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Alg. 1,0.000173625012394,3,5.833333333333333
+amazon,Amazon,4,0.5,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Fast Alg. 1,2.6958005037158728e-05,3,5.833333333333333
+amazon,Amazon,4,0.5,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Random credible pairs,2.704199869185686e-05,3,3.4323565323565326
+amazon,Amazon,4,0.5,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Single best pair,7.470801938325167e-05,1,1.9444444444444444
+amazon,Amazon,4,0.5,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Alg. 1,0.0086452079995069,30,5993.0163949245425
+amazon,Amazon,4,0.5,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Fast Alg. 1,3.541700425557792e-05,30,5993.0163949245425
+amazon,Amazon,4,0.5,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Random credible pairs,3.708398435264826e-05,30,4979.332819918121
+amazon,Amazon,4,0.5,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Single best pair,0.0002108750049956,1,199.94444444444449
+amazon,Amazon,4,0.5,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Alg. 1,17.096852999995463,442,19232357.34669599
+amazon,Amazon,4,0.5,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Fast Alg. 1,0.0002114170056302,442,19232357.346695986
+amazon,Amazon,4,0.5,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Random credible pairs,0.0001873339933808,442,16651316.184097622
+amazon,Amazon,4,0.5,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Single best pair,0.0421190409979317,1,43512.444444444445
+amazon,Amazon,4,1.0,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Alg. 1,0.0001828339882194,3,5.233333333333333
+amazon,Amazon,4,1.0,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Fast Alg. 1,3.491700044833124e-05,3,5.233333333333333
+amazon,Amazon,4,1.0,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Random credible pairs,2.945901360362768e-05,0,0.0
+amazon,Amazon,4,1.0,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Single best pair,7.604202255606651e-05,1,1.9444444444444444
+amazon,Amazon,4,1.0,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Alg. 1,0.0135634170146659,30,5962.037344805983
+amazon,Amazon,4,1.0,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Fast Alg. 1,3.983298665843904e-05,30,5962.037344805982
+amazon,Amazon,4,1.0,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Random credible pairs,3.704099799506366e-05,29,3254.990812077582
+amazon,Amazon,4,1.0,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Single best pair,0.0002035420038737,1,199.94444444444449
+amazon,Amazon,4,1.0,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Alg. 1,38.997369291988434,442,19231786.906659525
+amazon,Amazon,4,1.0,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Fast Alg. 1,0.0001967920106835,442,19231786.906659517
+amazon,Amazon,4,1.0,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Random credible pairs,0.0001718330022413,432,12628327.032409932
+amazon,Amazon,4,1.0,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.4916666666666666,mean,Single best pair,0.0429112080018967,1,43512.444444444445
+amazon,Amazon,0,0.1,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Single random pair,5.87090034969151e-05,1,1.9444444444444444
+amazon,Amazon,0,0.1,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Single random pair,3.22920095641166e-05,1,199.94444444444446
+amazon,Amazon,0,0.1,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.49166666666666664,mean,Single random pair,4.620800609700382e-05,1,43511.11113137946
+amazon,Amazon,0,0.25,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Single random pair,7.662500138394535e-05,1,1.9444444444444444
+amazon,Amazon,0,0.25,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Single random pair,4.225000157020986e-05,1,196.63475177304966
+amazon,Amazon,0,0.25,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.49166666666666664,mean,Single random pair,4.975000047124922e-05,1,43372.65325126263
+amazon,Amazon,0,0.5,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Single random pair,5.812497693113983e-05,1,1.9444444444444444
+amazon,Amazon,0,0.5,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Single random pair,3.566598752513528e-05,1,199.94444444444446
+amazon,Amazon,0,0.5,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.49166666666666664,mean,Single random pair,4.812501720152795e-05,1,42963.261450212616
+amazon,Amazon,0,1.0,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Single random pair,0.00010654199286364019,1,0.8535353535353535
+amazon,Amazon,0,1.0,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Single random pair,2.7207977836951613e-05,1,144.38070892978868
+amazon,Amazon,0,1.0,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.49166666666666664,mean,Single random pair,4.5707973185926676e-05,1,41624.3784538648
+amazon,Amazon,1,0.1,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Single random pair,4.1292019886896014e-05,1,1.9444444444444444
+amazon,Amazon,1,0.1,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Single random pair,2.8916983865201473e-05,1,199.72233986236103
+amazon,Amazon,1,0.1,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.49166666666666664,mean,Single random pair,4.700000863522291e-05,1,43120.68444444444
+amazon,Amazon,1,0.25,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Single random pair,5.120900459587574e-05,1,1.9444444444444444
+amazon,Amazon,1,0.25,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Single random pair,3.5959004890173674e-05,1,199.72233986236103
+amazon,Amazon,1,0.25,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.49166666666666664,mean,Single random pair,5.091700586490333e-05,1,43107.45645594842
+amazon,Amazon,1,0.5,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Single random pair,4.991699825040996e-05,1,1.9444444444444444
+amazon,Amazon,1,0.5,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Single random pair,3.8124999264255166e-05,1,199.27880499914397
+amazon,Amazon,1,0.5,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.49166666666666664,mean,Single random pair,4.099999205209315e-05,1,43066.470420567945
+amazon,Amazon,1,1.0,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Single random pair,4.820802132599056e-05,1,1.9444444444444444
+amazon,Amazon,1,1.0,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Single random pair,2.933401265181601e-05,1,167.8732542330985
+amazon,Amazon,1,1.0,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.49166666666666664,mean,Single random pair,5.00839960295707e-05,1,43133.69516430671
+amazon,Amazon,2,0.1,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Single random pair,4.762501339428127e-05,1,1.9444444444444444
+amazon,Amazon,2,0.1,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Single random pair,2.937499084509909e-05,1,196.63475177304966
+amazon,Amazon,2,0.1,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.49166666666666664,mean,Single random pair,4.7250010538846254e-05,1,43395.25866962648
+amazon,Amazon,2,0.25,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Single random pair,5.2333984058350325e-05,1,1.9444444444444444
+amazon,Amazon,2,0.25,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Single random pair,3.350002225488424e-05,1,197.73300970873785
+amazon,Amazon,2,0.25,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.49166666666666664,mean,Single random pair,5.1042006816715e-05,1,37553.267538010135
+amazon,Amazon,2,0.5,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Single random pair,5.358399357646704e-05,1,1.9444444444444444
+amazon,Amazon,2,0.5,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Single random pair,3.999998443759978e-05,1,106.83876017532874
+amazon,Amazon,2,0.5,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.49166666666666664,mean,Single random pair,3.583298530429602e-05,1,43107.45645594842
+amazon,Amazon,2,1.0,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Single random pair,5.4333999287337065e-05,1,1.3444444444444446
+amazon,Amazon,2,1.0,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Single random pair,2.90420139208436e-05,1,164.31684313009615
+amazon,Amazon,2,1.0,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.49166666666666664,mean,Single random pair,4.358298610895872e-05,1,38871.59794299773
+amazon,Amazon,3,0.1,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Single random pair,5.379199865274131e-05,1,1.9444444444444444
+amazon,Amazon,3,0.1,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Single random pair,3.0208990210667253e-05,1,195.32295988934993
+amazon,Amazon,3,0.1,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.49166666666666664,mean,Single random pair,3.683299291878939e-05,1,43485.78567491753
+amazon,Amazon,3,0.25,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Single random pair,4.616699879989028e-05,1,1.9444444444444444
+amazon,Amazon,3,0.25,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Single random pair,3.29999893438071e-05,1,195.32295988934993
+amazon,Amazon,3,0.25,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.49166666666666664,mean,Single random pair,3.5834003938362e-05,1,43422.31018492948
+amazon,Amazon,3,0.5,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Single random pair,4.7124980483204126e-05,1,1.7307692307692308
+amazon,Amazon,3,0.5,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Single random pair,3.125000512227416e-05,1,148.63220573006558
+amazon,Amazon,3,0.5,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.49166666666666664,mean,Single random pair,4.070898285135627e-05,1,31806.285313826313
+amazon,Amazon,3,1.0,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Single random pair,4.870802513323724e-05,1,1.3444444444444446
+amazon,Amazon,3,1.0,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Single random pair,3.1042000045999885e-05,1,96.80378578024008
+amazon,Amazon,3,1.0,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.49166666666666664,mean,Single random pair,3.29999893438071e-05,1,36251.641684206246
+amazon,Amazon,4,0.1,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Single random pair,4.42500167991966e-05,1,1.9444444444444444
+amazon,Amazon,4,0.1,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Single random pair,2.9416987672448158e-05,1,197.73300970873785
+amazon,Amazon,4,0.1,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.49166666666666664,mean,Single random pair,4.895799793303013e-05,1,43492.226783222504
+amazon,Amazon,4,0.25,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Single random pair,5.050000618211925e-05,1,1.9444444444444444
+amazon,Amazon,4,0.25,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Single random pair,2.924998989328742e-05,1,199.94444444444446
+amazon,Amazon,4,0.25,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.49166666666666664,mean,Single random pair,3.408401971682906e-05,1,42815.058695320506
+amazon,Amazon,4,0.5,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Single random pair,4.66250057797879e-05,1,1.9444444444444444
+amazon,Amazon,4,0.5,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Single random pair,3.195801400579512e-05,1,111.79278567667193
+amazon,Amazon,4,0.5,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.49166666666666664,mean,Single random pair,4.937499761581421e-05,1,43038.0629141663
+amazon,Amazon,4,1.0,1,"[""stars_whole""]",Stars,[6],6,6,1.0,mean,Single random pair,5.0583010306581855e-05,1,0.8535353535353535
+amazon,Amazon,4,1.0,2,"[""stars_whole"", ""price_decile""]",Stars × Price,"[6, 10]",60,60,1.0,mean,Single random pair,3.241701051592827e-05,1,61.54105571847507
+amazon,Amazon,4,1.0,3,"[""stars_whole"", ""price_decile"", ""bought_last_month""]",Stars × Price × Purchases,"[6, 10, 30]",885,1800,0.49166666666666664,mean,Single random pair,3.158301115036011e-05,1,26649.64218254551

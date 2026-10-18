@@ -1,0 +1,4 @@
+dataset,dataset_label,prior_model,strategy,num_attributes,attribute_labels,observed_groups,possible_groups,median_seconds,q25_seconds,q75_seconds,mean_pairs,mean_query_utility
+amazon,Amazon,gaussian-random,Alg. 1,1,Stars,6,6,0.00018737500067800283,0.0001723852547002025,0.00019772924133576453,2.9,4.2268755456384985
+amazon,Amazon,gaussian-random,Alg. 1,2,Stars × Price,60,60,0.004987520995200612,0.002541958740039263,0.011990729501121677,30.0,4473.739324015539
+amazon,Amazon,gaussian-random,Alg. 1,3,Stars × Price × Purchases,885,1800,12.179482916501001,5.594634697743459,24.594988041499164,442.0,14359811.44919369

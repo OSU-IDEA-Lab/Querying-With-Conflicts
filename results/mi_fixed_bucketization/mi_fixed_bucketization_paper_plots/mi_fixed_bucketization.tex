@@ -1,0 +1,53 @@
+% Requires \usepackage{subcaption}
+% Copy this file and the referenced PDFs into your paper's figures/ directory.
+\begin{figure*}[t]
+  \centering
+  \begin{subfigure}[t]{0.19\textwidth}
+    \includegraphics[width=\linewidth]{figures/mi_bucket_amazon_utility.pdf}
+    \caption{Amazon}
+  \end{subfigure}\hfill
+  \begin{subfigure}[t]{0.19\textwidth}
+    \includegraphics[width=\linewidth]{figures/mi_bucket_pricerunner_utility.pdf}
+    \caption{PriceRunner}
+  \end{subfigure}\hfill
+  \begin{subfigure}[t]{0.19\textwidth}
+    \includegraphics[width=\linewidth]{figures/mi_bucket_flights_utility.pdf}
+    \caption{Flights}
+  \end{subfigure}\hfill
+  \begin{subfigure}[t]{0.19\textwidth}
+    \includegraphics[width=\linewidth]{figures/mi_bucket_compas_utility.pdf}
+    \caption{COMPAS}
+  \end{subfigure}\hfill
+  \begin{subfigure}[t]{0.19\textwidth}
+    \includegraphics[width=\linewidth]{figures/mi_bucket_census_utility.pdf}
+    \caption{Census}
+  \end{subfigure}
+  \caption{MI utility retained after bucketizing a fixed full group domain. Utility is evaluated on the full domain using the fine-group biases and normalized by unbucketized MI utility. Lines show the mean over five seeded bias realizations; bands show one standard deviation.}
+  \label{fig:mi-bucket-utility}
+\end{figure*}
+
+\begin{figure*}[t]
+  \centering
+  \begin{subfigure}[t]{0.19\textwidth}
+    \includegraphics[width=\linewidth]{figures/mi_bucket_amazon_time.pdf}
+    \caption{Amazon}
+  \end{subfigure}\hfill
+  \begin{subfigure}[t]{0.19\textwidth}
+    \includegraphics[width=\linewidth]{figures/mi_bucket_pricerunner_time.pdf}
+    \caption{PriceRunner}
+  \end{subfigure}\hfill
+  \begin{subfigure}[t]{0.19\textwidth}
+    \includegraphics[width=\linewidth]{figures/mi_bucket_flights_time.pdf}
+    \caption{Flights}
+  \end{subfigure}\hfill
+  \begin{subfigure}[t]{0.19\textwidth}
+    \includegraphics[width=\linewidth]{figures/mi_bucket_compas_time.pdf}
+    \caption{COMPAS}
+  \end{subfigure}\hfill
+  \begin{subfigure}[t]{0.19\textwidth}
+    \includegraphics[width=\linewidth]{figures/mi_bucket_census_time.pdf}
+    \caption{Census}
+  \end{subfigure}
+  \caption{End-to-end runtime of exact MI as the number of learning buckets increases. The vertical axis uses a logarithmic scale.}
+  \label{fig:mi-bucket-time}
+\end{figure*}

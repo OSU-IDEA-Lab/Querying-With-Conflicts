@@ -1,0 +1,4 @@
+dataset,dataset_label,prior_model,strategy,num_attributes,attribute_labels,observed_groups,possible_groups,median_seconds,q25_seconds,q75_seconds,mean_pairs,mean_query_utility
+pricerunner,PriceRunner,gaussian-random,Alg. 1,1,Brand,10,10,0.00022797950077801943,0.0001976037528947927,0.00027221850905334577,4.95,20.111513123120055
+pricerunner,PriceRunner,gaussian-random,Alg. 1,2,Brand × Category,58,100,0.005249312496744096,0.003316271016956307,0.009648135004681535,28.95,4036.3930986942314
+pricerunner,PriceRunner,gaussian-random,Alg. 1,3,Brand × Category × Merchant,451,1100,1.7504663754953071,0.6069993747441913,3.4944047809913172,225.0,1898268.2010170221

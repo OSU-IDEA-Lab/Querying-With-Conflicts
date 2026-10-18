@@ -1,0 +1,4 @@
+dataset,dataset_label,prior_model,strategy,num_attributes,attribute_labels,observed_groups,possible_groups,median_seconds,q25_seconds,q75_seconds,mean_pairs,mean_query_utility
+compas,COMPAS,gaussian-random,Alg. 1,1,Prior count,2,2,9.924950427375734e-05,9.076049173017964e-05,0.00010991698945872486,0.8,0.13333333333333336
+compas,COMPAS,gaussian-random,Alg. 1,2,Prior count × Age,6,6,0.00013493750884663314,0.00012412449723342434,0.0001567295112181455,3.0,4.372537114002252
+compas,COMPAS,gaussian-random,Alg. 1,3,Prior count × Age × Violence score,57,60,0.0037403545138658956,0.0029869062491343357,0.009134332998655736,28.0,3771.4067311482127

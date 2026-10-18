@@ -1,0 +1,4 @@
+dataset,dataset_label,source,num_attributes,attributes,attribute_labels,cardinalities,observed_groups,possible_groups,observed_density,notes
+census,Census,data/real/census.csv,1,"[""sex""]",Sex,[2],2,2,1.0,"Uses the raw Census data with attributes ordered by increasing cardinality: sex, race, and education number."
+census,Census,data/real/census.csv,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,"Uses the raw Census data with attributes ordered by increasing cardinality: sex, race, and education number."
+census,Census,data/real/census.csv,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,"Uses the raw Census data with attributes ordered by increasing cardinality: sex, race, and education number."

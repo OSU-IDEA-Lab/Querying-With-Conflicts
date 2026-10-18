@@ -1,0 +1,26 @@
+dataset,dataset_label,attribute,attribute_label,coordinate_transform,full_cardinality,m,z,run,lambda,buckets,bucket_width_groups,bias_model,total_quadratic_gain,lifted_group_pairs,matched_bucket_pairs,status,full_quadratic_gain,utility_recovery
+census,Census,education_num,Education level,linear-minmax,16,16,16,0,0.25,1,16,seeded-sorted-uniform,0.0,0,0,complete,113.33333333333334,0.0
+census,Census,education_num,Education level,linear-minmax,16,16,16,0,0.25,2,8,seeded-sorted-uniform,100.00285146240273,8,1,complete,113.33333333333334,0.8823781011388475
+census,Census,education_num,Education level,linear-minmax,16,16,16,0,0.25,4,4,seeded-sorted-uniform,112.45033112582784,8,2,complete,113.33333333333334,0.9922088040514221
+census,Census,education_num,Education level,linear-minmax,16,16,16,0,0.25,8,2,seeded-sorted-uniform,113.33333333333334,8,4,complete,113.33333333333334,1.0
+census,Census,education_num,Education level,linear-minmax,16,16,16,0,0.25,16,1,seeded-sorted-uniform,113.33333333333334,8,8,complete,113.33333333333334,1.0
+census,Census,education_num,Education level,linear-minmax,16,16,16,1,0.25,1,16,seeded-sorted-uniform,0.0,0,0,complete,113.33333333333334,0.0
+census,Census,education_num,Education level,linear-minmax,16,16,16,1,0.25,2,8,seeded-sorted-uniform,99.4328739232453,8,1,complete,113.33333333333334,0.8773488875580466
+census,Census,education_num,Education level,linear-minmax,16,16,16,1,0.25,4,4,seeded-sorted-uniform,109.40398032090076,8,2,complete,113.33333333333334,0.9653292381255948
+census,Census,education_num,Education level,linear-minmax,16,16,16,1,0.25,8,2,seeded-sorted-uniform,113.04327189581656,8,4,complete,113.33333333333334,0.9974406343748519
+census,Census,education_num,Education level,linear-minmax,16,16,16,1,0.25,16,1,seeded-sorted-uniform,113.33333333333334,8,8,complete,113.33333333333334,1.0
+census,Census,education_num,Education level,linear-minmax,16,16,16,2,0.25,1,16,seeded-sorted-uniform,0.0,0,0,complete,113.33333333333334,0.0
+census,Census,education_num,Education level,linear-minmax,16,16,16,2,0.25,2,8,seeded-sorted-uniform,90.58145015010712,8,1,complete,113.33333333333334,0.7992480895597686
+census,Census,education_num,Education level,linear-minmax,16,16,16,2,0.25,4,4,seeded-sorted-uniform,111.59503493901803,8,2,complete,113.33333333333334,0.9846620729913356
+census,Census,education_num,Education level,linear-minmax,16,16,16,2,0.25,8,2,seeded-sorted-uniform,112.89183222958059,8,4,complete,113.33333333333334,0.9961044020257109
+census,Census,education_num,Education level,linear-minmax,16,16,16,2,0.25,16,1,seeded-sorted-uniform,113.33333333333334,8,8,complete,113.33333333333334,1.0
+census,Census,education_num,Education level,linear-minmax,16,16,16,3,0.25,1,16,seeded-sorted-uniform,0.0,0,0,complete,113.33333333333334,0.0
+census,Census,education_num,Education level,linear-minmax,16,16,16,3,0.25,2,8,seeded-sorted-uniform,105.99076583889358,8,1,complete,113.33333333333334,0.9352126397549433
+census,Census,education_num,Education level,linear-minmax,16,16,16,3,0.25,4,4,seeded-sorted-uniform,110.89214535843651,8,2,complete,113.33333333333334,0.9784601061038515
+census,Census,education_num,Education level,linear-minmax,16,16,16,3,0.25,8,2,seeded-sorted-uniform,113.33333333333334,8,4,complete,113.33333333333334,1.0
+census,Census,education_num,Education level,linear-minmax,16,16,16,3,0.25,16,1,seeded-sorted-uniform,113.33333333333334,8,8,complete,113.33333333333334,1.0
+census,Census,education_num,Education level,linear-minmax,16,16,16,4,0.25,1,16,seeded-sorted-uniform,0.0,0,0,complete,113.33333333333334,0.0
+census,Census,education_num,Education level,linear-minmax,16,16,16,4,0.25,2,8,seeded-sorted-uniform,95.10053219333042,8,1,complete,113.33333333333334,0.8391223428823272
+census,Census,education_num,Education level,linear-minmax,16,16,16,4,0.25,4,4,seeded-sorted-uniform,107.85778559253835,8,2,complete,113.33333333333334,0.9516863434635736
+census,Census,education_num,Education level,linear-minmax,16,16,16,4,0.25,8,2,seeded-sorted-uniform,112.02424242424243,8,4,complete,113.33333333333334,0.9884491978609625
+census,Census,education_num,Education level,linear-minmax,16,16,16,4,0.25,16,1,seeded-sorted-uniform,113.33333333333334,8,8,complete,113.33333333333334,1.0

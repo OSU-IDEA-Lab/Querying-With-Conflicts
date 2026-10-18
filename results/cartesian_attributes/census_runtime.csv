@@ -1,0 +1,301 @@
+dataset,dataset_label,run,lambda,num_attributes,attributes,attribute_labels,cardinalities,observed_groups,possible_groups,observed_density,bias_aggregate,strategy,seconds,pairs,query_utility
+census,Census,0,0.1,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Alg. 1,,1,0.16666666666666666
+census,Census,0,0.1,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Fast Alg. 1,2.8583017410710454e-05,1,0.16666666666666666
+census,Census,0,0.1,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Random credible pairs,2.341700019314885e-05,1,0.16666666666666666
+census,Census,0,0.1,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Single best pair,5.941701238043606e-05,1,0.16666666666666666
+census,Census,0,0.1,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Single random pair,2.704199869185686e-05,1,0.16666666666666666
+census,Census,0,0.1,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Alg. 1,0.00017654098337516189,5,27.5
+census,Census,0,0.1,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Fast Alg. 1,2.4625012883916497e-05,5,27.5
+census,Census,0,0.1,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Random credible pairs,2.4042004952207208e-05,5,27.5
+census,Census,0,0.1,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Single best pair,6.491699605248868e-05,1,5.5
+census,Census,0,0.1,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Single random pair,2.62079993262887e-05,1,5.5
+census,Census,0,0.1,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Alg. 1,0.01285525001003407,77,101447.5
+census,Census,0,0.1,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Fast Alg. 1,0.0003339580143801868,77,101447.5
+census,Census,0,0.1,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Random credible pairs,5.6124990805983543e-05,77,100734.4571419601
+census,Census,0,0.1,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Single best pair,0.0009791660122573376,1,1317.5
+census,Census,0,0.1,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Single random pair,3.720898530445993e-05,1,1316.833496732026
+census,Census,0,0.25,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Alg. 1,0.00014391698641702533,1,0.16666666666666666
+census,Census,0,0.25,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Fast Alg. 1,3.183301305398345e-05,1,0.16666666666666666
+census,Census,0,0.25,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Random credible pairs,2.5832996470853686e-05,1,0.16666666666666666
+census,Census,0,0.25,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Single best pair,6.295900675468147e-05,1,0.16666666666666666
+census,Census,0,0.25,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Single random pair,2.1374988136813045e-05,1,0.16666666666666666
+census,Census,0,0.25,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Alg. 1,0.00017424998804926872,5,27.5
+census,Census,0,0.25,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Fast Alg. 1,2.3500004317611456e-05,5,27.5
+census,Census,0,0.25,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Random credible pairs,2.2333988454192877e-05,5,26.00347222222222
+census,Census,0,0.25,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Single best pair,5.32910053152591e-05,1,5.5
+census,Census,0,0.25,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Single random pair,2.562499139457941e-05,1,5.5
+census,Census,0,0.25,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Alg. 1,0.030566500005079433,77,101446.83338848446
+census,Census,0,0.25,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Fast Alg. 1,6.054199184291065e-05,77,101446.83338848446
+census,Census,0,0.25,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Random credible pairs,4.545898991636932e-05,77,97736.14380421002
+census,Census,0,0.25,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Single best pair,0.0009578329918440431,1,1317.5
+census,Census,0,0.25,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Single random pair,2.8167007258161902e-05,1,1312.8409669211196
+census,Census,0,0.5,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Alg. 1,0.0001294999965466559,1,0.16666666666666666
+census,Census,0,0.5,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Fast Alg. 1,2.216600114479661e-05,1,0.16666666666666666
+census,Census,0,0.5,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Random credible pairs,2.2249994799494743e-05,1,0.16666666666666666
+census,Census,0,0.5,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Single best pair,5.020899698138237e-05,1,0.16666666666666666
+census,Census,0,0.5,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Single random pair,2.1540996385738254e-05,1,0.16666666666666666
+census,Census,0,0.5,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Alg. 1,0.00019874999998137355,5,27.5
+census,Census,0,0.5,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Fast Alg. 1,2.5707995519042015e-05,5,27.5
+census,Census,0,0.5,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Random credible pairs,2.3791013518348336e-05,5,26.86111111111111
+census,Census,0,0.5,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Single best pair,5.9582991525530815e-05,1,5.5
+census,Census,0,0.5,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Single random pair,2.7375004719942808e-05,1,3.5392156862745097
+census,Census,0,0.5,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Alg. 1,0.1221095829969272,77,101441.05853688208
+census,Census,0,0.5,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Fast Alg. 1,5.541698192246258e-05,77,101441.05853688208
+census,Census,0,0.5,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Random credible pairs,5.220898310653865e-05,77,88896.48636660694
+census,Census,0,0.5,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Single best pair,0.0010785830090753734,1,1317.5
+census,Census,0,0.5,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Single random pair,5.0417002057656646e-05,1,1053.8425925925926
+census,Census,0,1.0,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Alg. 1,0.00014154199743643403,1,0.16666666666666666
+census,Census,0,1.0,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Fast Alg. 1,2.420798409730196e-05,1,0.16666666666666666
+census,Census,0,1.0,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Random credible pairs,2.1916988771408796e-05,1,0.16666666666666666
+census,Census,0,1.0,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Single best pair,5.804197280667722e-05,1,0.16666666666666666
+census,Census,0,1.0,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Single random pair,2.4124979972839355e-05,1,0.16666666666666666
+census,Census,0,1.0,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Alg. 1,0.00021820800611749291,5,27.28125
+census,Census,0,1.0,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Fast Alg. 1,2.750000567175448e-05,5,27.28125
+census,Census,0,1.0,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Random credible pairs,2.37500062212348e-05,3,14.410293600562587
+census,Census,0,1.0,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Single best pair,5.5540993344038725e-05,1,5.5
+census,Census,0,1.0,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Single random pair,2.1666986867785454e-05,1,0.4090909090909091
+census,Census,0,1.0,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Alg. 1,0.1398896659957245,77,101409.13684546984
+census,Census,0,1.0,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Fast Alg. 1,5.9542013332247734e-05,77,101409.13684546985
+census,Census,0,1.0,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Random credible pairs,6.812499486841261e-05,76,68549.37340293232
+census,Census,0,1.0,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Single best pair,0.0011274160060565919,1,1317.5
+census,Census,0,1.0,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Single random pair,4.2540981667116284e-05,1,657.1275605214153
+census,Census,1,0.1,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Alg. 1,0.00013541599037125707,1,0.16666666666666666
+census,Census,1,0.1,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Fast Alg. 1,2.3041997337713838e-05,1,0.16666666666666666
+census,Census,1,0.1,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Random credible pairs,2.2459018509835005e-05,1,0.16666666666666666
+census,Census,1,0.1,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Single best pair,5.199998850002885e-05,1,0.16666666666666666
+census,Census,1,0.1,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Single random pair,2.241699257865548e-05,1,0.16666666666666666
+census,Census,1,0.1,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Alg. 1,0.00021124997874721885,5,27.5
+census,Census,1,0.1,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Fast Alg. 1,2.4208013201132417e-05,5,27.5
+census,Census,1,0.1,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Random credible pairs,2.4999986635521054e-05,5,27.5
+census,Census,1,0.1,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Single best pair,5.6666001910343766e-05,1,5.5
+census,Census,1,0.1,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Single random pair,2.591699012555182e-05,1,5.5
+census,Census,1,0.1,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Alg. 1,0.02268608400481753,77,101447.5
+census,Census,1,0.1,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Fast Alg. 1,6.112499977461994e-05,77,101447.5
+census,Census,1,0.1,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Random credible pairs,7.1291986387223e-05,77,100852.84962563228
+census,Census,1,0.1,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Single best pair,0.001799624995328486,1,1317.5
+census,Census,1,0.1,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Single random pair,3.904200275428593e-05,1,1309.521932830706
+census,Census,1,0.25,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Alg. 1,0.0001423330104444176,1,0.16666666666666666
+census,Census,1,0.25,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Fast Alg. 1,2.8000009479001164e-05,1,0.16666666666666666
+census,Census,1,0.25,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Random credible pairs,2.5291985366493464e-05,1,0.16666666666666666
+census,Census,1,0.25,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Single best pair,7.199999527074397e-05,1,0.16666666666666666
+census,Census,1,0.25,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Single random pair,2.270800177939236e-05,1,0.16666666666666666
+census,Census,1,0.25,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Alg. 1,0.00020920898532494903,5,27.5
+census,Census,1,0.25,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Fast Alg. 1,2.4334003683179617e-05,5,27.5
+census,Census,1,0.25,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Random credible pairs,2.300000051036477e-05,5,27.0625
+census,Census,1,0.25,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Single best pair,6.258298526518047e-05,1,5.5
+census,Census,1,0.25,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Single random pair,2.5749992346391082e-05,1,5.5
+census,Census,1,0.25,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Alg. 1,0.020324125012848526,77,101446.6112928935
+census,Census,1,0.25,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Fast Alg. 1,6.0084013966843486e-05,77,101446.6112928935
+census,Census,1,0.25,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Random credible pairs,5.6791992392390966e-05,77,98154.40436976339
+census,Census,1,0.25,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Single best pair,0.0010245830053463578,1,1317.5
+census,Census,1,0.25,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Single random pair,3.8124999264255166e-05,1,1266.9604810996564
+census,Census,1,0.5,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Alg. 1,0.0001421670021954924,1,0.16666666666666666
+census,Census,1,0.5,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Fast Alg. 1,2.3540982510894537e-05,1,0.16666666666666666
+census,Census,1,0.5,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Random credible pairs,2.400000812485814e-05,1,0.16666666666666666
+census,Census,1,0.5,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Single best pair,5.829200381413102e-05,1,0.16666666666666666
+census,Census,1,0.5,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Single random pair,2.1332991309463978e-05,1,0.16666666666666666
+census,Census,1,0.5,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Alg. 1,0.000200167007278651,5,27.5
+census,Census,1,0.5,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Fast Alg. 1,2.8457987355068326e-05,5,27.5
+census,Census,1,0.5,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Random credible pairs,2.9750022804364562e-05,5,24.771404711673696
+census,Census,1,0.5,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Single best pair,7.662500138394535e-05,1,5.5
+census,Census,1,0.5,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Single random pair,2.5375018594786525e-05,1,4.861111111111111
+census,Census,1,0.5,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Alg. 1,0.06053758299094625,77,101438.84299420405
+census,Census,1,0.5,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Fast Alg. 1,6.68749853502959e-05,77,101438.84299420407
+census,Census,1,0.5,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Random credible pairs,6.666698027402163e-05,77,88909.45218318784
+census,Census,1,0.5,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Single best pair,0.0010704169981181622,1,1317.5
+census,Census,1,0.5,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Single random pair,3.554200520738959e-05,1,784.0815333722514
+census,Census,1,1.0,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Alg. 1,0.00011749999248422682,0,0.0
+census,Census,1,1.0,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Fast Alg. 1,2.487501478753984e-05,0,0.0
+census,Census,1,1.0,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Random credible pairs,2.241699257865548e-05,0,0.0
+census,Census,1,1.0,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Single best pair,3.47500026691705e-05,0,0.0
+census,Census,1,1.0,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Single random pair,2.4375010980293155e-05,0,0.0
+census,Census,1,1.0,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Alg. 1,0.000368125009117648,5,26.20486111111111
+census,Census,1,1.0,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Fast Alg. 1,2.779200440272689e-05,5,26.20486111111111
+census,Census,1,1.0,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Random credible pairs,2.491599298082292e-05,5,20.25159262017043
+census,Census,1,1.0,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Single best pair,6.34589814580977e-05,1,5.5
+census,Census,1,1.0,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Single random pair,2.679199678823352e-05,1,2.7222222222222223
+census,Census,1,1.0,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Alg. 1,0.14474141702521592,77,101394.3611140261
+census,Census,1,1.0,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Fast Alg. 1,6.412502261810005e-05,77,101394.36111402608
+census,Census,1,1.0,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Random credible pairs,5.287499516271055e-05,74,64131.71102101557
+census,Census,1,1.0,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Single best pair,0.0010782500030472875,1,1317.5
+census,Census,1,1.0,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Single random pair,3.129200194962323e-05,1,1311.2911949685536
+census,Census,2,0.1,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Alg. 1,0.0001294169924221933,1,0.16666666666666666
+census,Census,2,0.1,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Fast Alg. 1,2.2332998923957348e-05,1,0.16666666666666666
+census,Census,2,0.1,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Random credible pairs,2.4667009711265564e-05,1,0.16666666666666666
+census,Census,2,0.1,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Single best pair,5.5832992075011134e-05,1,0.16666666666666666
+census,Census,2,0.1,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Single random pair,2.4374981876462698e-05,1,0.16666666666666666
+census,Census,2,0.1,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Alg. 1,0.00020916698849759996,5,27.5
+census,Census,2,0.1,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Fast Alg. 1,2.4707987904548645e-05,5,27.5
+census,Census,2,0.1,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Random credible pairs,2.4042004952207208e-05,5,27.5
+census,Census,2,0.1,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Single best pair,6.554200081154704e-05,1,5.5
+census,Census,2,0.1,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Single random pair,3.208400448784232e-05,1,5.5
+census,Census,2,0.1,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Alg. 1,0.015619709010934457,77,101447.5
+census,Census,2,0.1,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Fast Alg. 1,5.841598613187671e-05,77,101447.5
+census,Census,2,0.1,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Random credible pairs,5.529099144041538e-05,77,100697.29295464062
+census,Census,2,0.1,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Single best pair,0.0011653749970719218,1,1317.5
+census,Census,2,0.1,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Single random pair,5.4333999287337065e-05,1,1309.521932830706
+census,Census,2,0.25,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Alg. 1,0.00014908297453075647,1,0.16666666666666666
+census,Census,2,0.25,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Fast Alg. 1,2.3208005586639047e-05,1,0.16666666666666666
+census,Census,2,0.25,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Random credible pairs,2.28749995585531e-05,1,0.16666666666666666
+census,Census,2,0.25,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Single best pair,5.479200626723468e-05,1,0.16666666666666666
+census,Census,2,0.25,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Single random pair,2.1541985915973783e-05,1,0.16666666666666666
+census,Census,2,0.25,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Alg. 1,0.0002281250199303031,5,27.5
+census,Census,2,0.25,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Fast Alg. 1,3.4374999813735485e-05,5,27.5
+census,Census,2,0.25,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Random credible pairs,2.9375019948929548e-05,5,25.32046568627451
+census,Census,2,0.25,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Single best pair,6.845800089649856e-05,1,5.5
+census,Census,2,0.25,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Single random pair,2.341700019314885e-05,1,5.5
+census,Census,2,0.25,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Alg. 1,0.04216099999030121,77,101447.05559232295
+census,Census,2,0.25,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Fast Alg. 1,6.408299668692052e-05,77,101447.05559232295
+census,Census,2,0.25,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Random credible pairs,6.979098543524742e-05,77,96655.0320167861
+census,Census,2,0.25,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Single best pair,0.0010347499919589609,1,1317.5
+census,Census,2,0.25,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Single random pair,5.241698818281293e-05,1,1317.5
+census,Census,2,0.5,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Alg. 1,0.00011062499834224582,0,0.0
+census,Census,2,0.5,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Fast Alg. 1,2.8375012334436178e-05,0,0.0
+census,Census,2,0.5,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Random credible pairs,2.679100725799799e-05,0,0.0
+census,Census,2,0.5,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Single best pair,4.362498293630779e-05,0,0.0
+census,Census,2,0.5,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Single random pair,2.4957989808171988e-05,0,0.0
+census,Census,2,0.5,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Alg. 1,0.00034454098204150796,5,27.28125
+census,Census,2,0.5,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Fast Alg. 1,2.9167014872655272e-05,5,27.28125
+census,Census,2,0.5,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Random credible pairs,2.895898069255054e-05,5,24.088398175725985
+census,Census,2,0.5,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Single best pair,8.116598473861814e-05,1,5.5
+census,Census,2,0.5,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Single random pair,2.3792003048583865e-05,1,5.5
+census,Census,2,0.5,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Alg. 1,0.042864874994847924,77,101443.058046686
+census,Census,2,0.5,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Fast Alg. 1,6.191700231283903e-05,77,101443.05804668598
+census,Census,2,0.5,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Random credible pairs,6.700001540593803e-05,77,85895.56898857934
+census,Census,2,0.5,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Single best pair,0.0011798750201705843,1,1317.5
+census,Census,2,0.5,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Single random pair,4.166699363850057e-05,1,1223.4670549918576
+census,Census,2,1.0,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Alg. 1,0.00011937500676140189,0,0.0
+census,Census,2,1.0,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Fast Alg. 1,2.662499900907278e-05,0,0.0
+census,Census,2,1.0,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Random credible pairs,2.4667009711265564e-05,0,0.0
+census,Census,2,1.0,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Single best pair,4.874999285675585e-05,0,0.0
+census,Census,2,1.0,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Single random pair,2.4334003683179617e-05,0,0.0
+census,Census,2,1.0,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Alg. 1,0.0003769590111915022,5,24.90032679738562
+census,Census,2,1.0,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Fast Alg. 1,2.516701351851225e-05,5,24.90032679738562
+census,Census,2,1.0,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Random credible pairs,2.449998282827437e-05,3,16.5
+census,Census,2,1.0,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Single best pair,9.337498340755701e-05,1,5.5
+census,Census,2,1.0,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Single random pair,2.6833993615582585e-05,1,2.7222222222222223
+census,Census,2,1.0,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Alg. 1,0.11896395901567303,77,101412.90246019667
+census,Census,2,1.0,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Fast Alg. 1,6.20420032646507e-05,77,101412.90246019668
+census,Census,2,1.0,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Random credible pairs,5.658299778588116e-05,75,60103.41762724698
+census,Census,2,1.0,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Single best pair,0.001182584004709497,1,1317.5
+census,Census,2,1.0,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Single random pair,4.199999966658652e-05,1,1311.2911949685536
+census,Census,3,0.1,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Alg. 1,0.00012862501898780465,1,0.16666666666666666
+census,Census,3,0.1,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Fast Alg. 1,2.216600114479661e-05,1,0.16666666666666666
+census,Census,3,0.1,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Random credible pairs,2.4374981876462698e-05,1,0.16666666666666666
+census,Census,3,0.1,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Single best pair,5.716699524782598e-05,1,0.16666666666666666
+census,Census,3,0.1,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Single random pair,2.4500011932104826e-05,1,0.16666666666666666
+census,Census,3,0.1,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Alg. 1,0.00021091601229272783,5,27.5
+census,Census,3,0.1,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Fast Alg. 1,3.0750001315027475e-05,5,27.5
+census,Census,3,0.1,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Random credible pairs,2.649999805726111e-05,5,27.5
+census,Census,3,0.1,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Single best pair,7.72500061430037e-05,1,5.5
+census,Census,3,0.1,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Single random pair,2.37500062212348e-05,1,5.5
+census,Census,3,0.1,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Alg. 1,0.021688457985874265,77,101447.5
+census,Census,3,0.1,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Fast Alg. 1,7.6374999480322e-05,77,101447.5
+census,Census,3,0.1,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Random credible pairs,5.974998930469155e-05,77,101143.89105961277
+census,Census,3,0.1,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Single best pair,0.001180624996777624,1,1317.5
+census,Census,3,0.1,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Single random pair,3.6999990697950125e-05,1,1317.5
+census,Census,3,0.25,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Alg. 1,0.0001564590202178806,1,0.16666666666666666
+census,Census,3,0.25,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Fast Alg. 1,2.5332992663607e-05,1,0.16666666666666666
+census,Census,3,0.25,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Random credible pairs,2.362497616559267e-05,1,0.16666666666666666
+census,Census,3,0.25,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Single best pair,5.879197851754725e-05,1,0.16666666666666666
+census,Census,3,0.25,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Single random pair,2.475001383572817e-05,1,0.16666666666666666
+census,Census,3,0.25,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Alg. 1,0.0002002089750021696,5,27.5
+census,Census,3,0.25,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Fast Alg. 1,2.462498378008604e-05,5,27.5
+census,Census,3,0.25,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Random credible pairs,2.4290988221764565e-05,5,27.28125
+census,Census,3,0.25,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Single best pair,6.633400334976614e-05,1,5.5
+census,Census,3,0.25,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Single random pair,2.479099202901125e-05,1,5.5
+census,Census,3,0.25,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Alg. 1,0.017704792000586167,77,101447.5
+census,Census,3,0.25,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Fast Alg. 1,8.616599370725453e-05,77,101447.5
+census,Census,3,0.25,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Random credible pairs,7.045798702165484e-05,77,99032.51168203507
+census,Census,3,0.25,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Single best pair,0.0009499999869149178,1,1317.5
+census,Census,3,0.25,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Single random pair,4.500002251006663e-05,1,1314.1706067769896
+census,Census,3,0.5,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Alg. 1,0.00015012500807642937,1,0.16666666666666666
+census,Census,3,0.5,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Fast Alg. 1,2.5334011297672987e-05,1,0.16666666666666666
+census,Census,3,0.5,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Random credible pairs,2.4707987904548645e-05,1,0.16666666666666666
+census,Census,3,0.5,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Single best pair,6.612500874325633e-05,1,0.16666666666666666
+census,Census,3,0.5,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Single random pair,2.2124993847683072e-05,1,0.16666666666666666
+census,Census,3,0.5,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Alg. 1,0.0002169579965993762,5,27.5
+census,Census,3,0.5,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Fast Alg. 1,2.5749992346391082e-05,5,27.5
+census,Census,3,0.5,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Random credible pairs,2.3917004000395536e-05,5,26.42361111111111
+census,Census,3,0.5,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Single best pair,5.858400254510343e-05,1,5.5
+census,Census,3,0.5,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Single random pair,2.404101542197168e-05,1,5.5
+census,Census,3,0.5,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Alg. 1,0.045046582992654294,77,101444.38957925107
+census,Census,3,0.5,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Fast Alg. 1,6.545902579091489e-05,77,101444.38957925106
+census,Census,3,0.5,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Random credible pairs,5.3915980970487e-05,77,93173.97378309265
+census,Census,3,0.5,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Single best pair,0.0010634999780450016,1,1317.5
+census,Census,3,0.5,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Single random pair,4.358298610895872e-05,1,1266.9604810996564
+census,Census,3,1.0,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Alg. 1,0.00015808301395736635,1,0.16666666666666666
+census,Census,3,1.0,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Fast Alg. 1,2.3375003365799785e-05,1,0.16666666666666666
+census,Census,3,1.0,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Random credible pairs,2.2916006855666637e-05,1,0.16666666666666666
+census,Census,3,1.0,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Single best pair,6.145800580270588e-05,1,0.16666666666666666
+census,Census,3,1.0,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Single random pair,2.216699067503214e-05,1,0.16666666666666666
+census,Census,3,1.0,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Alg. 1,0.000398874981328845,5,26.84375
+census,Census,3,1.0,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Fast Alg. 1,3.283302066847682e-05,5,26.84375
+census,Census,3,1.0,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Random credible pairs,3.1458999728783965e-05,5,20.974251503725647
+census,Census,3,1.0,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Single best pair,6.77499920129776e-05,1,5.5
+census,Census,3,1.0,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Single random pair,2.370899892412126e-05,1,2.7222222222222223
+census,Census,3,1.0,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Alg. 1,0.16690866599674337,77,101425.5224005325
+census,Census,3,1.0,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Fast Alg. 1,6.291698082350194e-05,77,101425.52240053251
+census,Census,3,1.0,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Random credible pairs,7.35409848857671e-05,77,75821.03680552545
+census,Census,3,1.0,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Single best pair,0.0011764999944716692,1,1317.5
+census,Census,3,1.0,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Single random pair,4.7124980483204126e-05,1,1266.9604810996564
+census,Census,4,0.1,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Alg. 1,0.0001667909964453429,1,0.16666666666666666
+census,Census,4,0.1,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Fast Alg. 1,2.391697489656508e-05,1,0.16666666666666666
+census,Census,4,0.1,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Random credible pairs,2.2499996703118086e-05,1,0.16666666666666666
+census,Census,4,0.1,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Single best pair,5.874998169019818e-05,1,0.16666666666666666
+census,Census,4,0.1,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Single random pair,2.3833010345697403e-05,1,0.16666666666666666
+census,Census,4,0.1,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Alg. 1,0.00020691700046882033,5,27.5
+census,Census,4,0.1,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Fast Alg. 1,3.112497506663203e-05,5,27.5
+census,Census,4,0.1,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Random credible pairs,3.825000021606684e-05,5,27.5
+census,Census,4,0.1,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Single best pair,9.845799650065601e-05,1,5.5
+census,Census,4,0.1,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Single random pair,2.691600820980966e-05,1,5.5
+census,Census,4,0.1,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Alg. 1,0.0191057919873856,77,101447.5
+census,Census,4,0.1,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Fast Alg. 1,7.058397750370204e-05,77,101447.5
+census,Census,4,0.1,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Random credible pairs,6.337498780339956e-05,77,100705.02034767787
+census,Census,4,0.1,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Single best pair,0.0010884999937843531,1,1317.5
+census,Census,4,0.1,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Single random pair,4.841701593250036e-05,1,1317.2777961614825
+census,Census,4,0.25,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Alg. 1,0.00014862502575851977,1,0.16666666666666666
+census,Census,4,0.25,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Fast Alg. 1,2.5874993298202753e-05,1,0.16666666666666666
+census,Census,4,0.25,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Random credible pairs,2.4334003683179617e-05,1,0.16666666666666666
+census,Census,4,0.25,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Single best pair,6.104097701609135e-05,1,0.16666666666666666
+census,Census,4,0.25,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Single random pair,2.5582994567230344e-05,1,0.16666666666666666
+census,Census,4,0.25,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Alg. 1,0.00020737500744871795,5,27.5
+census,Census,4,0.25,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Fast Alg. 1,3.141601337119937e-05,5,27.5
+census,Census,4,0.25,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Random credible pairs,2.720800694078207e-05,5,25.830432489451475
+census,Census,4,0.25,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Single best pair,5.966599564999342e-05,1,5.5
+census,Census,4,0.25,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Single random pair,2.2332998923957348e-05,1,4.267932489451477
+census,Census,4,0.25,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Alg. 1,0.028982207993976772,77,101447.27779616148
+census,Census,4,0.25,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Fast Alg. 1,6.358401151373982e-05,77,101447.27779616148
+census,Census,4,0.25,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Random credible pairs,5.904099089093506e-05,77,97017.15772818764
+census,Census,4,0.25,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Single best pair,0.0012840419949498028,1,1317.5
+census,Census,4,0.25,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Single random pair,4.199999966658652e-05,1,1307.5338957517324
+census,Census,4,0.5,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Alg. 1,0.00014704099157825112,1,0.16666666666666666
+census,Census,4,0.5,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Fast Alg. 1,2.7000001864507794e-05,1,0.16666666666666666
+census,Census,4,0.5,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Random credible pairs,2.4542008759453893e-05,1,0.16666666666666666
+census,Census,4,0.5,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Single best pair,6.258301436901093e-05,1,0.16666666666666666
+census,Census,4,0.5,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Single random pair,3.441699664108455e-05,1,0.16666666666666666
+census,Census,4,0.5,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Alg. 1,0.0003194579912815243,5,27.28125
+census,Census,4,0.5,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Fast Alg. 1,2.500001573935151e-05,5,27.28125
+census,Census,4,0.5,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Random credible pairs,2.3999979021027684e-05,5,22.127613862000494
+census,Census,4,0.5,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Single best pair,6.125000072643161e-05,1,5.5
+census,Census,4,0.5,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Single random pair,2.400000812485814e-05,1,3.5392156862745097
+census,Census,4,0.5,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Alg. 1,0.1075893749948591,77,101441.94565585986
+census,Census,4,0.5,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Fast Alg. 1,7.454099250026047e-05,77,101441.94565585988
+census,Census,4,0.5,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Random credible pairs,6.925000343471766e-05,77,90315.25963806426
+census,Census,4,0.5,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Single best pair,0.0010759580181911588,1,1317.5
+census,Census,4,0.5,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Single random pair,4.208300379104912e-05,1,1315.279549743508
+census,Census,4,1.0,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Alg. 1,0.00015341700054705143,1,0.16666666666666666
+census,Census,4,1.0,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Fast Alg. 1,2.6749999960884452e-05,1,0.16666666666666666
+census,Census,4,1.0,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Random credible pairs,2.4290988221764565e-05,1,0.16666666666666666
+census,Census,4,1.0,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Single best pair,6.037499406374991e-05,1,0.16666666666666666
+census,Census,4,1.0,1,"[""sex""]",Sex,[2],2,2,1.0,mean,Single random pair,2.2541993530467153e-05,1,0.16666666666666666
+census,Census,4,1.0,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Alg. 1,0.00026287499349564314,5,26.86111111111111
+census,Census,4,1.0,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Fast Alg. 1,2.5332992663607e-05,5,26.86111111111111
+census,Census,4,1.0,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Random credible pairs,3.1333009246736765e-05,5,20.77286261483676
+census,Census,4,1.0,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Single best pair,7.224999717436731e-05,1,5.5
+census,Census,4,1.0,2,"[""sex"", ""race""]",Sex × Race,"[2, 5]",10,10,1.0,mean,Single random pair,2.5707995519042015e-05,1,2.7222222222222223
+census,Census,4,1.0,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Alg. 1,0.23215116700157523,77,101402.43819621451
+census,Census,4,1.0,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Fast Alg. 1,6.570800906047225e-05,77,101402.43819621445
+census,Census,4,1.0,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Random credible pairs,6.291599129326642e-05,72,59644.79139207597
+census,Census,4,1.0,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Single best pair,0.0015514999977312982,1,1317.5
+census,Census,4,1.0,3,"[""sex"", ""race"", ""education_num""]",Sex × Race × Education,"[2, 5, 16]",154,160,0.9625,mean,Single random pair,4.2750005377456546e-05,1,242.90138828633405

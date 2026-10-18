@@ -1,0 +1,301 @@
+dataset,dataset_label,run,lambda,num_attributes,attributes,attribute_labels,cardinalities,observed_groups,possible_groups,observed_density,bias_aggregate,strategy,seconds,pairs,query_utility
+compas,COMPAS,0,0.1,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Alg. 1,0.0001708329946268,1,0.1666666666666666
+compas,COMPAS,0,0.1,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Fast Alg. 1,2.4249980924651027e-05,1,0.1666666666666666
+compas,COMPAS,0,0.1,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Random credible pairs,2.3542001144960523e-05,1,0.1666666666666666
+compas,COMPAS,0,0.1,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Alg. 1,0.0001668749901,3,5.833333333333333
+compas,COMPAS,0,0.1,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Fast Alg. 1,2.4209002731367946e-05,3,5.833333333333333
+compas,COMPAS,0,0.1,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Random credible pairs,2.633300027810037e-05,3,5.833333333333333
+compas,COMPAS,0,0.1,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Alg. 1,0.0027356249920558,28,5052.4444444444425
+compas,COMPAS,0,0.1,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Fast Alg. 1,3.704099799506366e-05,28,5052.4444444444425
+compas,COMPAS,0,0.1,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Random credible pairs,3.216697950847447e-05,28,5047.787748932879
+compas,COMPAS,0,0.25,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Alg. 1,0.0001196660159621,1,0.1666666666666666
+compas,COMPAS,0,0.25,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Fast Alg. 1,2.7417001547291875e-05,1,0.1666666666666666
+compas,COMPAS,0,0.25,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Random credible pairs,2.733300789259374e-05,1,0.1666666666666666
+compas,COMPAS,0,0.25,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Alg. 1,0.0001670829951763,3,5.833333333333333
+compas,COMPAS,0,0.25,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Fast Alg. 1,2.9999995604157448e-05,3,5.833333333333333
+compas,COMPAS,0,0.25,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Random credible pairs,2.516701351851225e-05,3,5.833333333333333
+compas,COMPAS,0,0.25,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Alg. 1,0.0029572090134024,28,5052.4444444444425
+compas,COMPAS,0,0.25,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Fast Alg. 1,4.554097540676594e-05,28,5052.4444444444425
+compas,COMPAS,0,0.25,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Random credible pairs,3.875000402331352e-05,28,4991.948078059923
+compas,COMPAS,0,0.5,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Alg. 1,0.0001488330017309,1,0.1666666666666666
+compas,COMPAS,0,0.5,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Fast Alg. 1,2.4500011932104823e-05,1,0.1666666666666666
+compas,COMPAS,0,0.5,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Random credible pairs,2.608398790471256e-05,1,0.1666666666666666
+compas,COMPAS,0,0.5,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Alg. 1,0.0001614590000826,3,5.833333333333333
+compas,COMPAS,0,0.5,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Fast Alg. 1,2.62079993262887e-05,3,5.833333333333333
+compas,COMPAS,0,0.5,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Random credible pairs,2.4832988856360316e-05,3,5.833333333333333
+compas,COMPAS,0,0.5,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Alg. 1,0.0051723329816013,28,5052.2223522527775
+compas,COMPAS,0,0.5,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Fast Alg. 1,4.5082997530698776e-05,28,5052.2223522527775
+compas,COMPAS,0,0.5,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Random credible pairs,4.237500252202153e-05,28,4860.516949541375
+compas,COMPAS,0,1.0,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Alg. 1,0.000150207983097,1,0.1666666666666666
+compas,COMPAS,0,1.0,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Fast Alg. 1,2.487501478753984e-05,1,0.1666666666666666
+compas,COMPAS,0,1.0,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Random credible pairs,2.4125009076669812e-05,1,0.1666666666666666
+compas,COMPAS,0,1.0,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Alg. 1,0.0001574580091983,3,5.833333333333333
+compas,COMPAS,0,1.0,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Fast Alg. 1,2.804200630635023e-05,3,5.833333333333333
+compas,COMPAS,0,1.0,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Random credible pairs,2.5374989490956068e-05,3,5.61965811965812
+compas,COMPAS,0,1.0,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Alg. 1,0.0074917080055456,28,5050.893419359488
+compas,COMPAS,0,1.0,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Fast Alg. 1,4.045799141749739e-05,28,5050.227886479669
+compas,COMPAS,0,1.0,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Random credible pairs,3.820800338871777e-05,28,4254.856700314943
+compas,COMPAS,1,0.1,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Alg. 1,0.0001502919767517,1,0.1666666666666666
+compas,COMPAS,1,0.1,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Fast Alg. 1,3.0458002584055063e-05,1,0.1666666666666666
+compas,COMPAS,1,0.1,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Random credible pairs,3.1041010515764356e-05,1,0.1666666666666666
+compas,COMPAS,1,0.1,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Alg. 1,0.0002719580079428,3,5.833333333333333
+compas,COMPAS,1,0.1,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Fast Alg. 1,3.766699228435755e-05,3,5.833333333333333
+compas,COMPAS,1,0.1,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Random credible pairs,3.99590062443167e-05,3,5.833333333333333
+compas,COMPAS,1,0.1,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Alg. 1,0.0030885419982951,28,5052.4444444444425
+compas,COMPAS,1,0.1,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Fast Alg. 1,4.816602449864149e-05,28,5052.4444444444425
+compas,COMPAS,1,0.1,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Random credible pairs,4.954100586473942e-05,28,5016.607239035039
+compas,COMPAS,1,0.25,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Alg. 1,0.000141500000609,1,0.1666666666666666
+compas,COMPAS,1,0.25,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Fast Alg. 1,2.7834001230075955e-05,1,0.1666666666666666
+compas,COMPAS,1,0.25,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Random credible pairs,3.316698712296784e-05,1,0.1666666666666666
+compas,COMPAS,1,0.25,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Alg. 1,0.0001711250224616,3,5.833333333333333
+compas,COMPAS,1,0.25,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Fast Alg. 1,2.9458984499797225e-05,3,5.833333333333333
+compas,COMPAS,1,0.25,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Random credible pairs,2.5583984097465873e-05,3,5.833333333333333
+compas,COMPAS,1,0.25,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Alg. 1,0.0031092920107766,28,5052.4444444444425
+compas,COMPAS,1,0.25,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Fast Alg. 1,3.5667006159201264e-05,28,5052.4444444444425
+compas,COMPAS,1,0.25,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Random credible pairs,4.133302718400955e-05,28,4862.894402561549
+compas,COMPAS,1,0.5,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Alg. 1,0.000133708002977,0,0.0
+compas,COMPAS,1,0.5,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Fast Alg. 1,2.458400558680296e-05,0,0.0
+compas,COMPAS,1,0.5,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Random credible pairs,2.3625005269423127e-05,0,0.0
+compas,COMPAS,1,0.5,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Alg. 1,0.0001922090013977,3,5.833333333333333
+compas,COMPAS,1,0.5,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Fast Alg. 1,2.604100154712796e-05,3,5.833333333333333
+compas,COMPAS,1,0.5,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Random credible pairs,2.504198346287012e-05,3,5.01965811965812
+compas,COMPAS,1,0.5,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Alg. 1,0.0100137919944245,28,5051.333983486118
+compas,COMPAS,1,0.5,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Fast Alg. 1,4.2208004742860794e-05,28,5050.889799102787
+compas,COMPAS,1,0.5,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Random credible pairs,4.3167005060240626e-05,28,4285.40940877653
+compas,COMPAS,1,1.0,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Alg. 1,0.000119625008665,0,0.0
+compas,COMPAS,1,1.0,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Fast Alg. 1,2.4665991077199575e-05,0,0.0
+compas,COMPAS,1,1.0,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Random credible pairs,2.4209002731367946e-05,0,0.0
+compas,COMPAS,1,1.0,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Alg. 1,0.0002008750161621,3,5.233333333333333
+compas,COMPAS,1,1.0,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Fast Alg. 1,2.5707995519042015e-05,3,5.233333333333333
+compas,COMPAS,1,1.0,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Random credible pairs,2.629202208481729e-05,3,1.5678210678210678
+compas,COMPAS,1,1.0,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Alg. 1,0.0159029579954221,28,5046.018995608137
+compas,COMPAS,1,1.0,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Fast Alg. 1,3.8708007195964456e-05,28,5042.479717682481
+compas,COMPAS,1,1.0,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Random credible pairs,4.0916987927630544e-05,27,2963.3570408600544
+compas,COMPAS,2,0.1,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Alg. 1,0.0001402500201947,1,0.1666666666666666
+compas,COMPAS,2,0.1,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Fast Alg. 1,2.4459004634991288e-05,1,0.1666666666666666
+compas,COMPAS,2,0.1,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Random credible pairs,2.3833999875932932e-05,1,0.1666666666666666
+compas,COMPAS,2,0.1,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Alg. 1,0.0001870410051196,3,5.833333333333333
+compas,COMPAS,2,0.1,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Fast Alg. 1,2.6249996153637767e-05,3,5.833333333333333
+compas,COMPAS,2,0.1,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Random credible pairs,2.549999044276774e-05,3,5.833333333333333
+compas,COMPAS,2,0.1,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Alg. 1,0.0033327089913655,28,5052.4444444444425
+compas,COMPAS,2,0.1,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Fast Alg. 1,3.1750008929520845e-05,28,5052.4444444444425
+compas,COMPAS,2,0.1,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Random credible pairs,3.0000024707987905e-05,28,5046.456037697248
+compas,COMPAS,2,0.25,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Alg. 1,0.0001427500101272,1,0.1666666666666666
+compas,COMPAS,2,0.25,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Fast Alg. 1,2.7332978788763285e-05,1,0.1666666666666666
+compas,COMPAS,2,0.25,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Random credible pairs,2.19999928958714e-05,1,0.1666666666666666
+compas,COMPAS,2,0.25,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Alg. 1,0.0001645830052439,3,5.833333333333333
+compas,COMPAS,2,0.25,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Fast Alg. 1,2.700000186450779e-05,3,5.833333333333333
+compas,COMPAS,2,0.25,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Random credible pairs,2.6749999960884452e-05,3,5.833333333333333
+compas,COMPAS,2,0.25,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Alg. 1,0.0033994160185102,28,5052.4444444444425
+compas,COMPAS,2,0.25,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Fast Alg. 1,3.5792007111012936e-05,28,5052.4444444444425
+compas,COMPAS,2,0.25,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Random credible pairs,3.3082993468269706e-05,28,5010.452964463199
+compas,COMPAS,2,0.5,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Alg. 1,0.0001482089865021,1,0.1666666666666666
+compas,COMPAS,2,0.5,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Fast Alg. 1,2.2417021682485935e-05,1,0.1666666666666666
+compas,COMPAS,2,0.5,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Random credible pairs,2.366700209677219e-05,1,0.1666666666666666
+compas,COMPAS,2,0.5,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Alg. 1,0.0001634159998502,3,5.833333333333333
+compas,COMPAS,2,0.5,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Fast Alg. 1,2.529201447032392e-05,3,5.833333333333333
+compas,COMPAS,2,0.5,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Random credible pairs,2.19999928958714e-05,3,5.833333333333333
+compas,COMPAS,2,0.5,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Alg. 1,0.0032907080021686,28,5052.4444444444425
+compas,COMPAS,2,0.5,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Fast Alg. 1,3.354198997840285e-05,28,5052.4444444444425
+compas,COMPAS,2,0.5,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Random credible pairs,3.2042007660493255e-05,28,4809.455885493893
+compas,COMPAS,2,1.0,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Alg. 1,0.0001317500136792,1,0.1666666666666666
+compas,COMPAS,2,1.0,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Fast Alg. 1,2.6541994884610176e-05,1,0.1666666666666666
+compas,COMPAS,2,1.0,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Random credible pairs,2.4874985683709383e-05,1,0.1666666666666666
+compas,COMPAS,2,1.0,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Alg. 1,0.0001797909790184,3,5.833333333333333
+compas,COMPAS,2,1.0,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Fast Alg. 1,2.662499900907278e-05,3,5.833333333333333
+compas,COMPAS,2,1.0,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Random credible pairs,2.4540990125387907e-05,3,5.833333333333333
+compas,COMPAS,2,1.0,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Alg. 1,0.009143250004854,28,5051.334727181294
+compas,COMPAS,2,1.0,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Fast Alg. 1,3.504200140014291e-05,28,5050.002174031304
+compas,COMPAS,2,1.0,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Random credible pairs,3.370799822732806e-05,28,4278.147781716434
+compas,COMPAS,3,0.1,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Alg. 1,0.0001702499866951,1,0.1666666666666666
+compas,COMPAS,3,0.1,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Fast Alg. 1,2.358300844207406e-05,1,0.1666666666666666
+compas,COMPAS,3,0.1,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Random credible pairs,2.345899702049792e-05,1,0.1666666666666666
+compas,COMPAS,3,0.1,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Alg. 1,0.0001588750164955,3,5.833333333333333
+compas,COMPAS,3,0.1,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Fast Alg. 1,2.5042012566700574e-05,3,5.833333333333333
+compas,COMPAS,3,0.1,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Random credible pairs,2.883299021050334e-05,3,5.833333333333333
+compas,COMPAS,3,0.1,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Alg. 1,0.0023607919865753,28,5052.4444444444425
+compas,COMPAS,3,0.1,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Fast Alg. 1,3.5415985621511936e-05,28,5052.4444444444425
+compas,COMPAS,3,0.1,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Random credible pairs,3.5124976420775056e-05,28,5030.833174162167
+compas,COMPAS,3,0.25,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Alg. 1,0.0001421250053681,1,0.1666666666666666
+compas,COMPAS,3,0.25,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Fast Alg. 1,2.7166999643668532e-05,1,0.1666666666666666
+compas,COMPAS,3,0.25,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Random credible pairs,2.579198917374015e-05,1,0.1666666666666666
+compas,COMPAS,3,0.25,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Alg. 1,0.0001600840187165,3,5.833333333333333
+compas,COMPAS,3,0.25,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Fast Alg. 1,2.579099964350462e-05,3,5.833333333333333
+compas,COMPAS,3,0.25,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Random credible pairs,2.4999986635521058e-05,3,5.61965811965812
+compas,COMPAS,3,0.25,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Alg. 1,0.0033729590068105,28,5052.4444444444425
+compas,COMPAS,3,0.25,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Fast Alg. 1,3.312499029561877e-05,28,5052.4444444444425
+compas,COMPAS,3,0.25,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Random credible pairs,3.2167008612304926e-05,28,4908.263431186292
+compas,COMPAS,3,0.5,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Alg. 1,0.0001326249912381,1,0.1666666666666666
+compas,COMPAS,3,0.5,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Fast Alg. 1,3.0082999728620052e-05,1,0.1666666666666666
+compas,COMPAS,3,0.5,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Random credible pairs,2.616699202917516e-05,1,0.1666666666666666
+compas,COMPAS,3,0.5,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Alg. 1,0.0001620409893803,3,5.833333333333333
+compas,COMPAS,3,0.5,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Fast Alg. 1,2.5457993615418673e-05,3,5.833333333333333
+compas,COMPAS,3,0.5,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Random credible pairs,2.366700209677219e-05,3,4.142424242424243
+compas,COMPAS,3,0.5,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Alg. 1,0.0100011250178795,28,5051.55681937296
+compas,COMPAS,3,0.5,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Fast Alg. 1,4.099999205209315e-05,28,5051.333983486118
+compas,COMPAS,3,0.5,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Random credible pairs,3.91670037060976e-05,28,4344.758101528182
+compas,COMPAS,3,1.0,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Alg. 1,0.0001082499802578,0,0.0
+compas,COMPAS,3,1.0,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Fast Alg. 1,3.020901931449771e-05,0,0.0
+compas,COMPAS,3,1.0,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Random credible pairs,2.7457979740574956e-05,0,0.0
+compas,COMPAS,3,1.0,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Alg. 1,0.0002056669909507,3,5.233333333333333
+compas,COMPAS,3,1.0,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Fast Alg. 1,3.712499164976179e-05,3,5.233333333333333
+compas,COMPAS,3,1.0,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Random credible pairs,2.679199678823352e-05,2,3.0752136752136754
+compas,COMPAS,3,1.0,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Alg. 1,0.0176294999837409,28,5044.036955699844
+compas,COMPAS,3,1.0,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Fast Alg. 1,4.991699825040996e-05,28,5043.371422820025
+compas,COMPAS,3,1.0,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Random credible pairs,6.616598693653941e-05,26,3261.851593983667
+compas,COMPAS,4,0.1,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Alg. 1,0.0001419580075889,1,0.1666666666666666
+compas,COMPAS,4,0.1,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Fast Alg. 1,2.5874993298202753e-05,1,0.1666666666666666
+compas,COMPAS,4,0.1,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Random credible pairs,2.4707987904548645e-05,1,0.1666666666666666
+compas,COMPAS,4,0.1,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Alg. 1,0.0001670839847065,3,5.833333333333333
+compas,COMPAS,4,0.1,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Fast Alg. 1,3.1916017178446054e-05,3,5.833333333333333
+compas,COMPAS,4,0.1,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Random credible pairs,3.1041010515764356e-05,3,5.833333333333333
+compas,COMPAS,4,0.1,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Alg. 1,0.0030261670181062,28,5052.4444444444425
+compas,COMPAS,4,0.1,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Fast Alg. 1,3.5500008380040526e-05,28,5052.4444444444425
+compas,COMPAS,4,0.1,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Random credible pairs,3.633301821537316e-05,28,5020.053986105261
+compas,COMPAS,4,0.25,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Alg. 1,0.000161708012456,1,0.1666666666666666
+compas,COMPAS,4,0.25,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Fast Alg. 1,3.358299727551639e-05,1,0.1666666666666666
+compas,COMPAS,4,0.25,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Random credible pairs,2.7667003450915217e-05,1,0.1666666666666666
+compas,COMPAS,4,0.25,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Alg. 1,0.0001713749952614,3,5.833333333333333
+compas,COMPAS,4,0.25,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Fast Alg. 1,2.9457994969561696e-05,3,5.833333333333333
+compas,COMPAS,4,0.25,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Random credible pairs,2.358300844207406e-05,3,5.619658119658119
+compas,COMPAS,4,0.25,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Alg. 1,0.0043408750207163,28,5052.4444444444425
+compas,COMPAS,4,0.25,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Fast Alg. 1,3.5833014408126473e-05,28,5052.2223522527775
+compas,COMPAS,4,0.25,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Random credible pairs,3.383398870937526e-05,28,4897.671154473618
+compas,COMPAS,4,0.5,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Alg. 1,0.0001513329916633,1,0.1666666666666666
+compas,COMPAS,4,0.5,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Fast Alg. 1,2.8458976885303855e-05,1,0.1666666666666666
+compas,COMPAS,4,0.5,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Random credible pairs,2.4250010028481483e-05,1,0.1666666666666666
+compas,COMPAS,4,0.5,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Alg. 1,0.0001647919998504,3,5.833333333333333
+compas,COMPAS,4,0.5,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Fast Alg. 1,3.141601337119937e-05,3,5.833333333333333
+compas,COMPAS,4,0.5,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Random credible pairs,2.7290981961414215e-05,3,5.01965811965812
+compas,COMPAS,4,0.5,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Alg. 1,0.0118242499884217,28,5051.333983486118
+compas,COMPAS,4,0.5,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Fast Alg. 1,3.687501884996891e-05,28,5050.005050592828
+compas,COMPAS,4,0.5,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Random credible pairs,3.570900298655033e-05,28,4230.993105396066
+compas,COMPAS,4,1.0,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Alg. 1,0.0001146670256275,0,0.0
+compas,COMPAS,4,1.0,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Fast Alg. 1,2.420897362753749e-05,0,0.0
+compas,COMPAS,4,1.0,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Random credible pairs,2.508299075998366e-05,0,0.0
+compas,COMPAS,4,1.0,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Alg. 1,0.0002057499950751,3,5.233333333333333
+compas,COMPAS,4,1.0,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Fast Alg. 1,2.7040980057790875e-05,3,5.233333333333333
+compas,COMPAS,4,1.0,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Random credible pairs,2.5290995836257935e-05,2,2.3015873015873014
+compas,COMPAS,4,1.0,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Alg. 1,0.0155091249907854,28,5043.370679124849
+compas,COMPAS,4,1.0,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Fast Alg. 1,4.00420103687793e-05,28,5038.988827888423
+compas,COMPAS,4,1.0,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Random credible pairs,3.712502075359225e-05,26,3364.319617671602
+compas,COMPAS,0,0.1,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Single best pair,8.049997268244624e-05,1,0.1666666666666666
+compas,COMPAS,0,0.1,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Single best pair,5.325002712197602e-05,1,1.9444444444444444
+compas,COMPAS,0,0.1,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Single best pair,0.0002711249981075,1,180.44444444444449
+compas,COMPAS,0,0.25,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Single best pair,4.904202069155872e-05,1,0.1666666666666666
+compas,COMPAS,0,0.25,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Single best pair,5.133301601745188e-05,1,1.9444444444444444
+compas,COMPAS,0,0.25,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Single best pair,0.0001599170209374,1,180.44444444444449
+compas,COMPAS,0,0.5,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Single best pair,5.5832992075011134e-05,1,0.1666666666666666
+compas,COMPAS,0,0.5,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Single best pair,4.704098682850599e-05,1,1.9444444444444444
+compas,COMPAS,0,0.5,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Single best pair,0.0001491250004619,1,180.44444444444449
+compas,COMPAS,0,1.0,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Single best pair,4.837499000132084e-05,1,0.1666666666666666
+compas,COMPAS,0,1.0,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Single best pair,4.420900950208306e-05,1,1.9444444444444444
+compas,COMPAS,0,1.0,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Single best pair,0.0001709579955786,1,180.44444444444449
+compas,COMPAS,1,0.1,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Single best pair,6.337498780339956e-05,1,0.1666666666666666
+compas,COMPAS,1,0.1,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Single best pair,4.7375011490657926e-05,1,1.9444444444444444
+compas,COMPAS,1,0.1,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Single best pair,0.0001718749990686,1,180.44444444444449
+compas,COMPAS,1,0.25,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Single best pair,4.991699825040996e-05,1,0.1666666666666666
+compas,COMPAS,1,0.25,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Single best pair,4.491698928177357e-05,1,1.9444444444444444
+compas,COMPAS,1,0.25,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Single best pair,0.0001464580127503,1,180.44444444444449
+compas,COMPAS,1,0.5,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Single best pair,4.137499490752816e-05,0,0.0
+compas,COMPAS,1,0.5,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Single best pair,4.4167012674734e-05,1,1.9444444444444444
+compas,COMPAS,1,0.5,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Single best pair,0.0001486670225858,1,180.44444444444449
+compas,COMPAS,1,1.0,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Single best pair,3.5124976420775056e-05,0,0.0
+compas,COMPAS,1,1.0,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Single best pair,8.791699656285346e-05,1,1.9444444444444444
+compas,COMPAS,1,1.0,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Single best pair,0.0001535420014988,1,180.44444444444449
+compas,COMPAS,2,0.1,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Single best pair,5.1292008720338345e-05,1,0.1666666666666666
+compas,COMPAS,2,0.1,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Single best pair,4.637500387616456e-05,1,1.9444444444444444
+compas,COMPAS,2,0.1,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Single best pair,0.0001302919990848,1,180.44444444444449
+compas,COMPAS,2,0.25,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Single best pair,4.7999987145885825e-05,1,0.1666666666666666
+compas,COMPAS,2,0.25,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Single best pair,4.8291985876858234e-05,1,1.9444444444444444
+compas,COMPAS,2,0.25,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Single best pair,0.0001338339934591,1,180.44444444444449
+compas,COMPAS,2,0.5,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Single best pair,4.604199784807861e-05,1,0.1666666666666666
+compas,COMPAS,2,0.5,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Single best pair,4.187499871477485e-05,1,1.9444444444444444
+compas,COMPAS,2,0.5,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Single best pair,0.0001380419998895,1,180.44444444444449
+compas,COMPAS,2,1.0,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Single best pair,4.299997817724943e-05,1,0.1666666666666666
+compas,COMPAS,2,1.0,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Single best pair,4.345900379121304e-05,1,1.9444444444444444
+compas,COMPAS,2,1.0,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Single best pair,0.0001435840094927,1,180.44444444444449
+compas,COMPAS,3,0.1,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Single best pair,5.6124990805983543e-05,1,0.1666666666666666
+compas,COMPAS,3,0.1,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Single best pair,4.849999095313251e-05,1,1.9444444444444444
+compas,COMPAS,3,0.1,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Single best pair,0.0001319590082857,1,180.44444444444449
+compas,COMPAS,3,0.25,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Single best pair,4.354197881184518e-05,1,0.1666666666666666
+compas,COMPAS,3,0.25,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Single best pair,4.1207997128367424e-05,1,1.9444444444444444
+compas,COMPAS,3,0.25,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Single best pair,0.0001700419816188,1,180.44444444444449
+compas,COMPAS,3,0.5,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Single best pair,4.8999994760379195e-05,1,0.1666666666666666
+compas,COMPAS,3,0.5,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Single best pair,4.558300133794546e-05,1,1.9444444444444444
+compas,COMPAS,3,0.5,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Single best pair,0.0001425000082235,1,180.44444444444449
+compas,COMPAS,3,1.0,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Single best pair,5.3208001190796494e-05,0,0.0
+compas,COMPAS,3,1.0,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Single best pair,5.43750065844506e-05,1,1.9444444444444444
+compas,COMPAS,3,1.0,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Single best pair,0.0001679169945418,1,180.44444444444449
+compas,COMPAS,4,0.1,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Single best pair,4.654101212508977e-05,1,0.1666666666666666
+compas,COMPAS,4,0.1,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Single best pair,4.441599594429135e-05,1,1.9444444444444444
+compas,COMPAS,4,0.1,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Single best pair,0.0001333340187557,1,180.44444444444449
+compas,COMPAS,4,0.25,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Single best pair,4.4334010453894734e-05,1,0.1666666666666666
+compas,COMPAS,4,0.25,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Single best pair,6.162500358186662e-05,1,1.9444444444444444
+compas,COMPAS,4,0.25,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Single best pair,0.0001402079942636,1,180.44444444444449
+compas,COMPAS,4,0.5,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Single best pair,4.449998959898949e-05,1,0.1666666666666666
+compas,COMPAS,4,0.5,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Single best pair,4.579100641421974e-05,1,1.9444444444444444
+compas,COMPAS,4,0.5,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Single best pair,0.0001588329905644,1,180.44444444444449
+compas,COMPAS,4,1.0,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Single best pair,4.879198968410492e-05,0,0.0
+compas,COMPAS,4,1.0,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Single best pair,4.4666987378150225e-05,1,1.9444444444444444
+compas,COMPAS,4,1.0,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Single best pair,0.0001532500027678,1,180.44444444444449
+compas,COMPAS,0,0.1,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Single random pair,4.354197881184518e-05,1,0.16666666666666666
+compas,COMPAS,0,0.1,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Single random pair,3.0041992431506515e-05,1,1.9444444444444444
+compas,COMPAS,0,0.1,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Single random pair,3.416699473746121e-05,1,180.22235225277942
+compas,COMPAS,0,0.25,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Single random pair,3.637498593889177e-05,1,0.16666666666666666
+compas,COMPAS,0,0.25,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Single random pair,2.95409990940243e-05,1,1.9444444444444444
+compas,COMPAS,0,0.25,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Single random pair,2.983299782499671e-05,1,180.44444444444446
+compas,COMPAS,0,0.5,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Single random pair,2.8665992431342602e-05,1,0.16666666666666666
+compas,COMPAS,0,0.5,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Single random pair,2.8875016141682863e-05,1,1.9444444444444444
+compas,COMPAS,0,0.5,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Single random pair,2.9291986720636487e-05,1,179.77891156462584
+compas,COMPAS,0,1.0,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Single random pair,2.9667018679901958e-05,1,0.16666666666666666
+compas,COMPAS,0,1.0,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Single random pair,2.9582995921373367e-05,1,1.9444444444444444
+compas,COMPAS,0,1.0,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Single random pair,2.5874993298202753e-05,1,141.37313432835822
+compas,COMPAS,1,0.1,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Single random pair,2.3083994165062904e-05,1,0.16666666666666666
+compas,COMPAS,1,0.1,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Single random pair,2.662499900907278e-05,1,1.9444444444444444
+compas,COMPAS,1,0.1,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Single random pair,2.9165996238589287e-05,1,179.77891156462584
+compas,COMPAS,1,0.25,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Single random pair,3.170900163240731e-05,1,0.16666666666666666
+compas,COMPAS,1,0.25,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Single random pair,2.9457994969561696e-05,1,1.9444444444444444
+compas,COMPAS,1,0.25,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Single random pair,2.4541979655623436e-05,1,178.2340994120791
+compas,COMPAS,1,0.5,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Single random pair,2.983299782499671e-05,0,0.0
+compas,COMPAS,1,0.5,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Single random pair,2.4582986952736974e-05,1,1.7307692307692308
+compas,COMPAS,1,0.5,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Single random pair,3.1042000045999885e-05,1,180.44444444444446
+compas,COMPAS,1,1.0,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Single random pair,3.220900543965399e-05,0,0.0
+compas,COMPAS,1,1.0,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Single random pair,2.5541987270116806e-05,1,1.3444444444444446
+compas,COMPAS,1,1.0,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Single random pair,2.750000567175448e-05,1,137.57181571815718
+compas,COMPAS,2,0.1,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Single random pair,2.7583999326452613e-05,1,0.16666666666666666
+compas,COMPAS,2,0.1,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Single random pair,2.762500662356615e-05,1,1.9444444444444444
+compas,COMPAS,2,0.1,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Single random pair,2.3708009393885732e-05,1,180.22235225277942
+compas,COMPAS,2,0.25,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Single random pair,2.983299782499671e-05,1,0.16666666666666666
+compas,COMPAS,2,0.25,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Single random pair,2.5707995519042015e-05,1,1.9444444444444444
+compas,COMPAS,2,0.25,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Single random pair,2.300000051036477e-05,1,168.53228782287823
+compas,COMPAS,2,0.5,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Single random pair,2.6958005037158728e-05,1,0.16666666666666666
+compas,COMPAS,2,0.5,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Single random pair,2.487501478753984e-05,1,1.9444444444444444
+compas,COMPAS,2,0.5,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Single random pair,3.079100861214101e-05,1,166.21499548328816
+compas,COMPAS,2,1.0,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Single random pair,2.8584006940945983e-05,1,0.16666666666666666
+compas,COMPAS,2,1.0,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Single random pair,3.2042007660493255e-05,1,1.9444444444444444
+compas,COMPAS,2,1.0,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Single random pair,2.270800177939236e-05,1,172.5833735327223
+compas,COMPAS,3,0.1,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Single random pair,3.233298775739968e-05,1,0.16666666666666666
+compas,COMPAS,3,0.1,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Single random pair,2.8292008209973574e-05,1,1.9444444444444444
+compas,COMPAS,3,0.1,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Single random pair,2.662499900907278e-05,1,179.11551155115512
+compas,COMPAS,3,0.25,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Single random pair,2.9584014555439353e-05,1,0.16666666666666666
+compas,COMPAS,3,0.25,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Single random pair,2.9749993700534105e-05,1,1.9444444444444444
+compas,COMPAS,3,0.25,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Single random pair,2.1625019144266844e-05,1,180.22235225277942
+compas,COMPAS,3,0.5,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Single random pair,2.5124987587332726e-05,1,0.16666666666666666
+compas,COMPAS,3,0.5,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Single random pair,3.145798109471798e-05,1,1.3444444444444446
+compas,COMPAS,3,0.5,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Single random pair,2.6708992663770914e-05,1,179.77891156462584
+compas,COMPAS,3,1.0,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Single random pair,3.083300543949008e-05,0,0.0
+compas,COMPAS,3,1.0,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Single random pair,2.854099147953093e-05,1,0.35714285714285715
+compas,COMPAS,3,1.0,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Single random pair,2.3957982193678617e-05,1,133.63879343260786
+compas,COMPAS,4,0.1,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Single random pair,2.5042012566700578e-05,1,0.16666666666666666
+compas,COMPAS,4,0.1,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Single random pair,3.295901115052402e-05,1,1.9444444444444444
+compas,COMPAS,4,0.1,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Single random pair,2.3125001462176442e-05,1,174.3083003952569
+compas,COMPAS,4,0.25,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Single random pair,2.7624977519735694e-05,1,0.16666666666666666
+compas,COMPAS,4,0.25,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Single random pair,2.3958011297509074e-05,1,1.9444444444444444
+compas,COMPAS,4,0.25,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Single random pair,2.4999986635521054e-05,1,179.77891156462584
+compas,COMPAS,4,0.5,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Single random pair,3.462500171735883e-05,1,0.16666666666666666
+compas,COMPAS,4,0.5,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Single random pair,3.012499655596912e-05,1,1.9444444444444444
+compas,COMPAS,4,0.5,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Single random pair,2.3500004317611456e-05,1,179.11551155115512
+compas,COMPAS,4,1.0,1,"[""priors_count""]",Prior count,[2],2,2,1.0,mean,Single random pair,2.937499084509909e-05,0,0.0
+compas,COMPAS,4,1.0,2,"[""priors_count"", ""age_cat_binned""]",Prior count × Age,"[2, 3]",6,6,1.0,mean,Single random pair,2.9082992114126682e-05,1,0.8535353535353535
+compas,COMPAS,4,1.0,3,"[""priors_count"", ""age_cat_binned"", ""v_decile_score""]",Prior count × Age × Violence score,"[2, 3, 10]",57,60,0.95,mean,Single random pair,2.2332998923957348e-05,1,6.596578025149454

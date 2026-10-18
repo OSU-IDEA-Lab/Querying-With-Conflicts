@@ -1,0 +1,4 @@
+dataset,dataset_label,prior_model,strategy,num_attributes,attribute_labels,observed_groups,possible_groups,median_seconds,q25_seconds,q75_seconds,mean_pairs,mean_query_utility
+census,Census,gaussian-random,Alg. 1,1,Sex,2,2,0.00013124951510690153,0.00011789625568781048,0.00014205250045051798,0.85,0.14166666666666666
+census,Census,gaussian-random,Alg. 1,2,Sex × Race,10,10,0.00021560399909503758,0.00018293750326847658,0.0002492917628842406,5.0,20.334645398723886
+census,Census,gaussian-random,Alg. 1,3,Sex × Race × Education,154,160,0.04719316650880501,0.02238636475522071,0.12464020825427724,77.0,75736.49899075778

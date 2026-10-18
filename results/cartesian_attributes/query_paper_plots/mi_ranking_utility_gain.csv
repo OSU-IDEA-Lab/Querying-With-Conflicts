@@ -1,0 +1,16 @@
+dataset,dataset_label,num_attributes,ranking_utility_gain
+amazon,Amazon,1,0.3646
+amazon,Amazon,2,0.3140240107678842
+amazon,Amazon,3,0.2977879470811265
+pricerunner,PriceRunner,1,0.29812619047619043
+pricerunner,PriceRunner,2,0.38330714285714285
+pricerunner,PriceRunner,3,0.31076151903201654
+compas,COMPAS,1,0.643
+compas,COMPAS,2,0.3358
+compas,COMPAS,3,0.2874294981883759
+flights,Flights,1,0.40316666666666673
+flights,Flights,2,0.3033687011056576
+flights,Flights,3,0.29036698480326184
+census,Census,1,0.7
+census,Census,2,0.37401825396825394
+census,Census,3,0.275749207618239

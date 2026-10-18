@@ -1,0 +1,4 @@
+dataset,dataset_label,prior_model,strategy,num_attributes,attribute_labels,observed_groups,possible_groups,median_seconds,q25_seconds,q75_seconds,mean_pairs,mean_query_utility
+flights,Flights,gaussian-random,Alg. 1,1,Price,5,5,0.00018427049508318305,0.00016327074263244867,0.00018868800543714315,2.0,1.9930592875950954
+flights,Flights,gaussian-random,Alg. 1,2,Price × Airline,26,30,0.0006559165194630623,0.0005332397340680473,0.0013069379929220304,13.0,362.96063976488534
+flights,Flights,gaussian-random,Alg. 1,3,Price × Airline × Days left,327,390,0.9382016664894763,0.24781897923821816,1.3428046667613671,163.0,722942.4088938936
